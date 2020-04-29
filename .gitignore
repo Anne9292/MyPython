@@ -8,7 +8,9 @@
 /logs/latest/*.log
 /logs/latest/*.txt
 /logs/latest/*.html
-/.idea/*
+/workModel/TestCase
+/workModel/GroupBuy.py
+/workModel/requestsDemo.py
 /venv/*
 /papi/*.sqlite3
 /utils/encrypt/__pycache__/*.pyc
