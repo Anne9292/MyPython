@@ -7,6 +7,7 @@ import time
 
 # 测试app冷启动和热启动时间
 class AppStart(object):
+
     def __init__(self):
         self.content = ""
         self.start_time = 0
