@@ -1,0 +1,140 @@
+- api_name: 取物码购买
+  body: json
+  url: http://192.168.4.215:21802/vmen/order/buy
+  method: Post
+  params:
+    {
+      "quantity": "1",
+      "app_version": "519000",
+      "vmId": "240",
+      "secret": "{secret}",
+      "type": "1",
+      "scenType": "3",
+      "commodityType": "1",
+      "uid": "{uid}",
+      "sourceType": "2",
+      "newWalletApiRequest": "",
+      "id": "454",
+      "sdk": "ec80104d769fb83a0a7ee9e4bf65aad2",
+      "api": "1",
+      "lang": "1",
+      "app_from": "0"
+    }
+
+- api_name: 确认订单
+  body: json
+  url: http://192.168.4.215:21802/vmen/order/confirmPay
+  method: Post
+  params:
+    {
+      "app_version": "519000",
+      "address_id": "",
+      "secret": "{secret}",
+      "cardNo": "",
+      "uid": "{uid}",
+      "delivery_date": "",
+      "phone": "",
+      "newWalletApiRequest": "",
+      "receiver_name": "",
+      "id": "{order_id}",
+      "sdk": "ec80104d769fb83a0a7ee9e4bf65aad2",
+      "api": "1",
+      "lang": "1",
+      "app_from": "0"
+    }
+
+- api_name: 创建订单
+  body: json
+  url: http://192.168.4.215:21800/Bluepay/newTrade
+  method: Post
+  params:
+    {
+      "defaultPayType": "",
+      "app_version": "519000",
+      "ref0": "",
+      "ref2": "",
+      "product_price": "6000",
+      "ref1": "",
+      "secret": "{secret}",
+      "type": "2",
+      "uid": "{uid}",
+      "payment_channel": "43",
+      "newWalletApiRequest": "",
+      "product_id": "{product_id}",
+      "api": "2",
+      "sdk": "ec80104d769fb83a0a7ee9e4bf65aad2",
+      "lang": "1",
+      "msisdn": "6281700001930",
+      "app_from": "0"
+    }
+
+- api_name: 支付
+  body: json
+  url: http://192.168.4.215:21800/Bluepay/trade/pay
+  method: Post
+  params:
+    {
+      "bank_bd_id": "-1",
+      "app_version": "519000",
+      "cardType": "",
+      "secret": "{secret}",
+      "creditCardChannel": "",
+      "uid": "{uid}",
+      "card_no": "0",
+      "shopping_id": "{shopping_id}",
+      "newWalletApiRequest": "",
+      "currency": "2",
+      "api": "3",
+      "sdk": "ec80104d769fb83a0a7ee9e4bf65aad2",
+      "lang": "1",
+      "channel_type": "1",
+      "payment_passwd": "",
+      "dataSource": "",
+      "app_from": "0"
+    }
+
+- api_name: 查看取货码
+  body: json
+  url: http://192.168.4.215:23110/vmen/order/getOrderList
+  method: Post
+  params:
+    {
+      "pageStart":"0",
+      "offset":"10",
+      "pageType":"1",
+      "sdk":"ec80104d769fb83a0a7ee9e4bf65aad2",
+      "app_from":"0",
+      "app_version":"519000",
+      "secret":"{secret}",
+      "uid":"{uid}",
+      "api":"1",
+      "lang":"1"
+    }
+
+#- api_name: 使用取货码
+#  body: json
+#  url: http://192.168.4.215:23110/vmen/server/getOrderByCode
+#  method: Post
+#  params:
+#    {
+#      "trackId": "{randomId}",
+#      "code":"{pickUpCode}",
+#      "deviceId": "",
+#      "lang": "1",
+#      "sign": "{}"
+#    }
+#- api_name: 查询订单详情
+#  body: json
+#  url: http://192.168.4.215:21800/bills/BillsDetails2
+#  method: Post
+#  params:
+#    - uid: '{uid}'
+#    - secret: '{secret}'
+#    - api: '1'
+#    - detail_id: '96984'
+#    - detail_other: ''
+#    - lang: '1'
+#    - sdk: 'ec80104d769fb83a0a7ee9e4bf65aad2'
+#    - app_from: '0'
+#    - app_version: '511000'
+#    - newWalletApiRequest: ''
