@@ -1,4 +1,4 @@
-s = input()
+s = input("请输入：")
 t = ""
 for c in s:
     if 'a' <= c <= 'z': 
