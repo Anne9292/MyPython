@@ -20,7 +20,7 @@ class PickupCode(object):
         # 统一替换secret和uid
         api_list_json = json.dumps(api_list)  #列表转换成json字符串类型
         api_list_json = api_list_json.replace('{secret}', self.secret).replace("{uid}", str(self.uid))  # 链式replace替换
-        self.api_list = json.loads(api_list_json)  #字符串类型转换成列表
+        self.api_list = json.loads(api_list_json)  #字符串转换成字典
 
     # 购买取货码
     def code_buy(self):
