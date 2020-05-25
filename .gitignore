@@ -14,3 +14,4 @@
 /venv/*
 /papi/*.sqlite3
 /utils/encrypt/__pycache__/*.pyc
+workModel/TestCase
