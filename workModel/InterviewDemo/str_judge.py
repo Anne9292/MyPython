@@ -1,24 +1,27 @@
+#! -*- coding:utf-8 -*-
 
-def bin_search(arr,target):
-    first = 0
-    last = len(arr) - 1
+def str_judge(a):
 
-    while first <= last:
-
-        mid = (first + last) // 2
-
-        if arr[mid] > target:
-            last = mid -1
-
-        elif arr[mid] < target:
-            first = mid + 1
-
-        else:
+    length = len(a)
+    if length < 2 or length %2 != 0:
+        if a == '':
             return True
+        else:
+            return False
 
-    return False
+    count = 1
+    while(count <= length/2):
+        a = a.replace("{}","").replace("[]","").replace("()","")
+        print('a是：',a)
+        count += 1
+
+    if len(a) > 0:
+        return False
+    else:
+        return True
 
 if __name__ == '__main__':
-    arr = [1,4,5,7,8]
-    result = bin_search(arr, 5)
-    print('二分查找法结果是：', result)
+    a = input("请输入{/}/(/)/[/]此类字符串：")
+    result = str_judge(a)
+    print(result)
+
