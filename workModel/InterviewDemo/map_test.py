@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 
 import random
+
 list1 = [1,2,3,4,5]
 def fn(x):
     assert(x>0)

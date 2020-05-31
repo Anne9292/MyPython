@@ -9,9 +9,9 @@
 /logs/latest/*.txt
 /logs/latest/*.html
 /workModel/TestCase
-/workModel/GroupBuy.py
-/workModel/requestsDemo.py
+/workModel/work_project/GroupBuy.py
+/workModel/work_project/requestsDemo.py
+/workModel/work_project/ConnectSql.py
 /venv/*
 /papi/*.sqlite3
 /utils/encrypt/__pycache__/*.pyc
-workModel/TestCase

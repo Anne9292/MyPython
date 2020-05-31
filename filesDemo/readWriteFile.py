@@ -1,4 +1,3 @@
-#! /usr/bin/env python
 # -*- coding:utf-8 -*-
 
 # 打开D:\nyfedit7\myBase.ini文件,并删除某个字符串，用完会关闭文件

@@ -14,7 +14,7 @@ class PickupCode(object):
         self.secret = secret
 
         # 导入yaml文件
-        file = open('./TestCase/pickupCode.yaml', 'rb')
+        file = open('./TestCase/pickupCode.yaml', 'r')
         api_list = yaml.full_load(file)   #list类型
 
         # 统一替换secret和uid

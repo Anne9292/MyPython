@@ -1,4 +1,4 @@
-#! -*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
 
 # 递归实现
 def fn(n):

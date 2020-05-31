@@ -9,7 +9,7 @@ def str_test():
 
 # 打印直角三角形
 def triangle_test():
-    for i in range(0,4):
+    for i in range(0, 3):
         for j in range(0, i+1):
             print('*', end='')
         print()
@@ -28,5 +28,5 @@ def compare_test(num1, num2):
 
 if __name__ == '__main__':
     # str_test()
-    # triangle_test()
-    compare_test(22, 22)
+    triangle_test()
+    # compare_test(22, 22)
