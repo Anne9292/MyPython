@@ -1,10 +1,10 @@
-#! /usr/bin/env python
 # -*- coding:utf-8 -*-
 
 import json
 import requests
 import yaml
-from ConnectSql import ConnectSql # 从模块里导入类
+from ConnectSql import ConnectSql  # 从模块里导入类
+
 
 """取货码购买流程"""
 class PickupCode(object):
@@ -14,7 +14,7 @@ class PickupCode(object):
         self.secret = secret
 
         # 导入yaml文件
-        file = open('./TestCase/pickupCode.yaml', 'r')
+        file = open('../TestCase/pickupCode.yaml', 'rb')
         api_list = yaml.full_load(file)   #list类型
 
         # 统一替换secret和uid
