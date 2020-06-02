@@ -47,7 +47,7 @@ def lottery_result(num):
             remark_list.append('{}&&{}'.format(reward_name, remark))
             time.sleep(1)
         # 统计抽奖结果
-        lottery_dict = dict(Counter(remark_list))
+        lottery_dict = Counter(remark_list).most_common()
         print("================> %d次抽奖整体结果为：" % num, lottery_dict)
 
         for key,value in lottery_dict.items():  # 返回可遍历的(键, 值) 元组数组
