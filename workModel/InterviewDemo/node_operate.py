@@ -63,7 +63,7 @@ class LinkedList:
         cur_idx = 0
         if self.head is None:  # 空链表时
             raise Exception('The list is an empty list!')
-        while (cur_idx < idx - 1):  # 遍历链表
+        while cur_idx < idx - 1:  # 遍历链表
             cur = cur.next
             if cur is None:
                 raise Exception('list length less than index!')
@@ -79,8 +79,6 @@ class LinkedList:
         cur.next = cur.next.next
         if cur.next is None:  # 删除的是最后一个节点时
             self.tail = cur
-
-    #
 
     # 遍历链表并打印
     def list_print(self):
@@ -102,5 +100,5 @@ if __name__ == '__main__':
     list1.begin_insert('Sun')
     list1.end_insert('Fri')
     list1.mid_insert(e2.next,'Thu')
-    list1.remove(2)
+    list1.remove(1)
     list1.list_print()
