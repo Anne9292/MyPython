@@ -61,9 +61,9 @@ class LinkedList:
     def remove(self, idx):
         cur = self.head
         cur_idx = 0
-        if self.head is None:  #空链表时
+        if self.head is None:  # 空链表时
             raise Exception('The list is an empty list!')
-        while (cur_idx < idx - 1):  #遍历链表
+        while (cur_idx < idx - 1):  # 遍历链表
             cur = cur.next
             if cur is None:
                 raise Exception('list length less than index!')

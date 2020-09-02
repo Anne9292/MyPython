@@ -7,7 +7,7 @@ def bubble_sort(arr):
     for i in range(1, len(arr)):
         for n in range(len(arr)-i):
             if arr[n] > arr[n+1]:
-                arr[n],arr[n+1] = arr[n+1],arr[n]
+                arr[n], arr[n+1] = arr[n+1], arr[n]
     print('冒泡排序结果是：', arr)
 
 def selection_sort(arr):
@@ -20,7 +20,7 @@ def selection_sort(arr):
                 minIndex = j
 
         if i != minIndex:  # 未排序序列中找到的最小值比
-            arr[i],arr[minIndex] = arr[minIndex],arr[i]
+            arr[i], arr[minIndex] = arr[minIndex], arr[i]
     print('快速排序结果是：', arr)
 
 def insertion_sort(arr):
@@ -41,8 +41,8 @@ def quick_sort(arr, left=None, right=None):
     2. 重新排序数列，所有元素比基准值小的摆放在基准前面，所有元素比基准值大的摆在基准的后面（相同的数可以到任一边）。在这个分区退出之后，该基准就处于数列的中间位置。这个称为分区（partition）操作；
     3. 递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序。
     时间复杂度为O(nlogn)'''
-    left = 0 if not isinstance(left,(int,float)) else left
-    right = len(arr)-1 if not isinstance(right,(int, float)) else right
+    left = 0 if not isinstance(left, (int, float)) else left
+    right = len(arr)-1 if not isinstance(right, (int, float)) else right
     if left < right:
         partitionIndex = partition(arr, left, right)
         quick_sort(arr, left, partitionIndex-1)
@@ -53,19 +53,19 @@ def partition(arr, left, right):
     pivot = left
     index = pivot + 1
     i = index
-    while i <=right:
+    while i <= right:
         if arr[i] < arr[pivot]:
-            swap(arr, i ,index)
+            swap(arr, i, index)
             index += 1
         i += 1
     swap(arr, pivot, index-1)
-    return  index - 1
+    return index - 1
 
 def swap(arr, i, j):
     arr[i], arr[j] = arr[j], arr[i]
 
 if __name__ == '__main__':
-    arr = [2,3,1,5,2,6]
+    arr = [2, 3, 1, 5, 2, 6]
     bubble_sort(arr)
     selection_sort(arr)
     insertion_sort(arr)

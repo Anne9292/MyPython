@@ -1,12 +1,14 @@
 #! /usr/bin/env python
 # -*- coding:utf-8 -*-
 
-'''anne practice request model'''
-__author__='anne yang'
+'''
+    anne practice request model
+'''
+__author__ = 'anne yang'
 
-import  requests
+import requests
 def search_api_name(request):
-    #自定义接口
+    # 自定义接口
     url = 'http://192.168.4.215:21802/vmen/order/buy'
     params = {
         "id": "458",
@@ -23,14 +25,14 @@ def search_api_name(request):
         "api": "1",
         "newWalletApiRequest": ""
     }
-    r = requests.post(url,json=params)
+    r = requests.post(url, json=params)
     if r != '':
-        event_turple = db_test.select_all('select * from vm_goods where user_id like '+ "'%" + r + "%'")
+        event_turple = db_test.select_all('select * from vm_goods where user_id like ' + "'%" + r + "%'")
         event_list = []
         if len(event_turple) != 0:
             for i in event_turple:
-                event_list.append({})
-                return  r.json({'Stauts_code':'200'})
+                event_list.append({i})
+                return r.json({'Stauts_code': '200'})
         else:
-            return  r.json(())
+            return r.json(())
 

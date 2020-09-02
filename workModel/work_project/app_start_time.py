@@ -34,20 +34,20 @@ class App(object):
 
 # 控制类
 class Controller(object):
-    def __init__(self,count):
+    def __init__(self, count):
         self.app = App()
         self.counter = count
-        self.all_data = [("timestamp","elapsed_time")]
+        self.all_data = [("timestamp", "elapsed_time")]
 
     # 单次测试过程
     def test_process(self):
         self.app.launch_app()
-        time.sleep(5)
+        time.sleep(3)
         elapsed_time = self.app.get_launched_time()
         self.app.stop_app()
-        time.sleep(3)
+        time.sleep(2)
         current_time = self.get_current_time()
-        self.all_data.append((current_time,elapsed_time))
+        self.all_data.append((current_time, elapsed_time))
         print(self.all_data)
 
     # 多次执行测试过程
@@ -63,12 +63,13 @@ class Controller(object):
 
     # 数据的存储
     def save_data_to_csv(self):
-        csvfile = open('totalTime5.csv', 'w',newline='')
-        writer = csv.writer(csvfile) # 创建初始化写入对象
+        csvfile = open('totalTime5.csv', 'w', newline='')
+        writer = csv.writer(csvfile)  # 创建初始化写入对象
         writer.writerows(self.all_data)  # 多行写入
+        csvfile.close()
 
 
 if __name__ == '__main__':
-    controller = Controller(5)
-    controller.test_process()
+    controller = Controller(3)
+    controller.run()
     controller.save_data_to_csv()
