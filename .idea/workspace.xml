@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2add5b57-204a-4132-add9-5954970408f0" name="Default" comment="sort_algo commit">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/anne.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/anne.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumDemo/baidu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workModel/InterviewDemo/node_operate.py" beforeDir="false" afterPath="$PROJECT_DIR$/workModel/InterviewDemo/node_operate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/InterviewDemo/recursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/workModel/InterviewDemo/recursion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/InterviewDemo/sort_algo.py" beforeDir="false" afterPath="$PROJECT_DIR$/workModel/InterviewDemo/sort_algo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/work_project/app_start_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/workModel/work_project/app_start_time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/work_project/lottery.py" beforeDir="false" afterPath="$PROJECT_DIR$/workModel/work_project/lottery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/work_project/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/workModel/work_project/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,22 +15,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workModel/TestCase/groupLottery.yaml">
+        <entry file="file://$PROJECT_DIR$/workModel/InterviewDemo/node_operate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="418">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/workModel/work_project/app_start_time.py">
+        <entry file="file://$PROJECT_DIR$/seleniumDemo/baidu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-              <folding>
-                <element signature="e#47#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -87,7 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../test_http_api/api_test_case/wallet/hongbao/push_receive.yaml" />
         <option value="$PROJECT_DIR$/../test_http_api/push_power.py" />
         <option value="$PROJECT_DIR$/../test_http_api/PublicMethod/GetCase/Dynamic_params.py" />
         <option value="$PROJECT_DIR$/../test_http_api/Models/BaseHttpApi.py" />
@@ -130,7 +120,6 @@
         <option value="$PROJECT_DIR$/workModel/InterviewDemo/linklist_append.py" />
         <option value="$PROJECT_DIR$/workModel/InterviewDemo/nodecreate.py" />
         <option value="$PROJECT_DIR$/workModel/InterviewDemo/test-node.py" />
-        <option value="$PROJECT_DIR$/workModel/InterviewDemo/node_operate.py" />
         <option value="$PROJECT_DIR$/workModel/work_project/calculate_slot_num.py" />
         <option value="$PROJECT_DIR$/workModel/TestCase/groupLottery.yaml" />
         <option value="$PROJECT_DIR$/workModel/work_project/lottery.py" />
@@ -138,14 +127,16 @@
         <option value="$PROJECT_DIR$/workModel/InterviewDemo/sort_algo.py" />
         <option value="$PROJECT_DIR$/workModel/InterviewDemo/recursion.py" />
         <option value="$PROJECT_DIR$/workModel/work_project/views.py" />
+        <option value="$PROJECT_DIR$/workModel/InterviewDemo/node_operate.py" />
+        <option value="$PROJECT_DIR$/seleniumDemo/baidu.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1910" />
-    <option name="y" value="-10" />
-    <option name="width" value="2579" />
-    <option name="height" value="1420" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -216,23 +207,6 @@
               <item name="MyPython" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
-            <path>
-              <item name="MyPython" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="workModel" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MyPython" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="workModel" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="TestCase" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MyPython" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="workModel" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="work_project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -243,7 +217,7 @@
     <property name="SearchEverywhereHistoryKey" value="messageId&#9;null&#9;null&#10;desstr&#9;null&#9;null&#10;checkdata&#9;null&#9;null&#10;RandomNo&#9;null&#9;null&#10;popleft&#9;null&#9;null" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Robot" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../papi" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../new1/.settings" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -256,18 +230,18 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PyCharm\PycharmProjects\MyPython\workModel\InterviewDemo" />
-      <recent name="D:\PyCharm\PycharmProjects\MyPython\workModel\work_project" />
-      <recent name="D:\PyCharm\PycharmProjects\MyPython\MyDemo\loopDemo" />
-      <recent name="D:\PyCharm\PycharmProjects\MyPython\MyDemo\listModel" />
-      <recent name="D:\PycharmProjects\test_http_api\" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PyCharm\PycharmProjects\MyPython" />
       <recent name="D:\PycharmProjects\test_http_api\script" />
       <recent name="D:\PycharmProjects\test_http_api\log\20180706" />
       <recent name="D:\PycharmProjects\test_http_api\api_test_case\wallet\hongbao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PyCharm\PycharmProjects\MyPython" />
+      <recent name="D:\PyCharm\PycharmProjects\MyPython\workModel\InterviewDemo" />
+      <recent name="D:\PyCharm\PycharmProjects\MyPython\workModel\work_project" />
+      <recent name="D:\PyCharm\PycharmProjects\MyPython\MyDemo\loopDemo" />
+      <recent name="D:\PyCharm\PycharmProjects\MyPython\MyDemo\listModel" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -282,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.recursion">
+  <component name="RunManager" selected="Python.baidu">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="new_est" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -317,6 +291,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workModel/work_project/app_start_time.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="baidu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\PyCharm\PycharmProjects\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seleniumDemo" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seleniumDemo/baidu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -374,33 +369,12 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\anne\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="SDK_HOME" value="D:\PyCharm\PycharmProjects\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workModel/InterviewDemo" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workModel/InterviewDemo/recursion.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test-node" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\anne\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workModel/InterviewDemo" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workModel/InterviewDemo/test-node.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -484,18 +458,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.node_operate" />
-      <item itemvalue="Python.test-node" />
       <item itemvalue="Python.app_start_time" />
       <item itemvalue="Python.lottery" />
       <item itemvalue="Python.recursion" />
+      <item itemvalue="Python.baidu" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.baidu" />
         <item itemvalue="Python.recursion" />
         <item itemvalue="Python.app_start_time" />
         <item itemvalue="Python.lottery" />
         <item itemvalue="Python.node_operate" />
-        <item itemvalue="Python.test-node" />
       </list>
     </recent_temporary>
   </component>
@@ -552,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591196842833</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="sort_algo commit">
+      <created>1599026831479</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599026831479</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -570,21 +551,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-7" width="2062" height="1136" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15768462" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1575067" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3282123" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.3980447" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39739883" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.64292777" weight="0.35612243" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.64292777" visible="true" weight="0.33236995" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5006605" side_tool="true" weight="0.62849164" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.95810056" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.6255102" />
       <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.6172107" weight="0.477551" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4993395" weight="0.8787879" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4993395" weight="0.49387756" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32953367" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -635,14 +617,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sort_algo commit" />
     <MESSAGE value="update PickupCodeBuy.py&#10;commit sort_algo.py" />
     <MESSAGE value="sort_algo commit&#10;pickupCodeBuy commit" />
     <MESSAGE value="sort_algo commit1" />
     <MESSAGE value="sort_algo commit 2" />
     <MESSAGE value="linklist commit" />
     <MESSAGE value="LinkedNode create commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedNode create commit" />
+    <MESSAGE value="sort_algo commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="sort_algo commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -655,9 +637,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../test_http_api/api_test_case/bluemart/正式环境/泰国app 扫售卖机.yaml" />
-    <entry file="file://$PROJECT_DIR$/../test_http_api/api_test_case/bluemart/测试环境/mission.yaml" />
-    <entry file="file://$PROJECT_DIR$/../test_http_api/api_test_case/bluemart/测试环境/自动登录.yaml" />
     <entry file="file://$PROJECT_DIR$/../test_http_api/api_test_case/bluemart/测试环境/二维码--泰国测试.yaml" />
     <entry file="file://$PROJECT_DIR$/../test_http_api/script/test_api1.py" />
     <entry file="file://$PROJECT_DIR$/../test_http_api/api_test_case/bluemart/测试环境/VM_scan_client.yaml" />
@@ -823,24 +802,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workModel/InterviewDemo/node_operate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workModel/TestCase/pickupCode.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workModel/TestCase/groupLottery.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -853,11 +818,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/workModel/work_project/app_start_time.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="759">
+          <caret line="48" column="46" lean-forward="true" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
           <folding>
             <element signature="e#47#56#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workModel/TestCase/groupLottery.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv/Lib/site-packages/selenium/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv/Lib/site-packages/selenium/webdriver/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workModel/InterviewDemo/node_operate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumDemo/baidu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
