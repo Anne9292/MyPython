@@ -10,6 +10,7 @@ def bubble_sort(arr):
                 arr[n], arr[n+1] = arr[n+1], arr[n]
     print('冒泡排序结果是：', arr)
 
+
 def selection_sort(arr):
     '''在未排序序列中找最小元素，放在排序序列起始位置；再从剩余未排序序列中找最小元素，放在已排序序列末尾
     时间复杂度为O(n^2)'''
@@ -21,24 +22,26 @@ def selection_sort(arr):
 
         if i != minIndex:  # 未排序序列中找到的最小值比
             arr[i], arr[minIndex] = arr[minIndex], arr[i]
-    print('快速排序结果是：', arr)
+    print('选择排序结果是：', arr)
+
 
 def insertion_sort(arr):
-    '''讲待排序序列第1个元素看做有序序列，将第2个元素到最后1个元素当成未排序序列，
-    从头到尾扫描未排序序列，讲扫描到的每个元素插入有序序列的适当位置。
+    '''将待排序序列第1个元素看做有序序列，将第2个元素到最后1个元素当成未排序序列，
+    从头到尾扫描未排序序列，将扫描到的每个元素插入有序序列的适当位置。
     时间复杂度为O(n^2)'''
-    for i in range(len(arr)):
-        preIndex = i-1
-        current = arr[i]
-        while preIndex >= 0 and arr[preIndex] > current:
-            arr[preIndex+1] = arr[preIndex]
-            preIndex -= 1
-        arr[preIndex+1] = current
+    for i in range(1, len(arr)):
+        value = arr[i]  # 待插入的数据
+        j = i - 1   # 有序序列最后一位
+        while j >= 0 and arr[j] > value:
+            arr[j+1] = arr[j]   # 若有序序列元素比待插入元素大，将有序序列元素右移
+            j -= 1
+        arr[j+1] = value
     print('插入排序结果是：', arr)
+
 
 def quick_sort(arr, left=None, right=None):
     '''1. 从数列中挑出一个元素，称为 "基准"（pivot）;
-    2. 重新排序数列，所有元素比基准值小的摆放在基准前面，所有元素比基准值大的摆在基准的后面（相同的数可以到任一边）。在这个分区退出之后，该基准就处于数列的中间位置。这个称为分区（partition）操作；
+    2. 所有元素比基准值小的摆放在基准前面，所有元素比基准值大的摆在基准的后面（相同的数可以到任一边）。在这个分区退出之后，该基准就处于数列的中间位置。这个称为分区（partition）操作；
     3. 递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序。
     时间复杂度为O(nlogn)'''
     left = 0 if not isinstance(left, (int, float)) else left
@@ -64,11 +67,12 @@ def partition(arr, left, right):
 def swap(arr, i, j):
     arr[i], arr[j] = arr[j], arr[i]
 
+
 if __name__ == '__main__':
-    arr = [2, 3, 1, 5, 2, 6]
-    bubble_sort(arr)
-    selection_sort(arr)
-    insertion_sort(arr)
+    arr = [4, 3, 1, 5, 2, 6]
+    # bubble_sort(arr) 
+    # selection_sort(arr)
+    # insertion_sort(arr)
     quick_sort(arr)
 
 
