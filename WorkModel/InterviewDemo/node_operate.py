@@ -80,8 +80,6 @@ class LinkedList:
         if cur.next is None:  # 删除的是最后一个节点时
             self.tail = cur
 
-    #
-
     # 遍历链表并打印
     def list_print(self):
         printnode = self.head
@@ -102,5 +100,5 @@ if __name__ == '__main__':
     list1.begin_insert('Sun')
     list1.end_insert('Fri')
     list1.mid_insert(e2.next,'Thu')
-    list1.remove(2)
+    list1.remove(1)
     list1.list_print()

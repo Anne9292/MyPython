@@ -10,7 +10,7 @@ def str_judge(a):
             return False
 
     count = 1
-    while(count <= length/2):
+    while count <= length/2:
         a = a.replace("{}","").replace("[]","").replace("()","")
         print('a是：',a)
         count += 1
