@@ -1,4 +1,4 @@
-import turtle,time
+import turtle, time
 
 def drawGap():  #绘制数码管间隔
     turtle.penup()

@@ -1,0 +1,72 @@
+Index: workModel/InterviewDemo/recursion.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># -*- coding:utf-8 -*-\r\n\r\n# 递归实现\r\ndef fn(n):\r\n    assert n >= 0, \"n > 0\"\r\n    if n <= 1:\r\n        return n\r\n    return n + fn(n-1)\r\n\r\n# 递推实现\r\ndef fn1(n):\r\n    a, b = 0, 1\r\n    for i in range(n+1):\r\n        a, b = b, a + b\r\n        print('a是：',a)\r\n        print('b是：',b)\r\n    return b\r\n\r\nif __name__ == '__main__':\r\n\r\n    for i in range(4):\r\n        print('第%d轮循环' % i)\r\n        print('和是：', fn(i))\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- workModel/InterviewDemo/recursion.py	(revision a16a3c67b3b68936a15409a3903cbb39a69f8ee8)
++++ workModel/InterviewDemo/recursion.py	(date 1599276848626)
+@@ -5,19 +5,29 @@
+     assert n >= 0, "n > 0"
+     if n <= 1:
+         return n
+-    return n + fn(n-1)
++    return fn(n-2) + fn(n-1)
+ 
+ # 递推实现
+ def fn1(n):
+-    a, b = 0, 1
+-    for i in range(n+1):
+-        a, b = b, a + b
+-        print('a是：',a)
+-        print('b是：',b)
+-    return b
++    if n <= 1:
++        return n
++    else:
++        a, b = 0, 1
++        for i in range(n):
++            a, b = b, a + b
++            # print('a是：',a)
++            # print('b是：',b)
++        return a
++
++def Fibonacci(n):
++    assert n>=0, "n不能小于0"
++    if n <= 1:
++        return n
++    else:
++        return Fibonacci(n-1) + Fibonacci(n-2)
+ 
+ if __name__ == '__main__':
+ 
+-    for i in range(4):
+-        print('第%d轮循环' % i)
+-        print('和是：', fn(i))
++    for i in range(2):
++        # print('第%d轮循环' % i)
++        print('第%d项：' % i, fn1(i))
+Index: workModel/InterviewDemo/str_judge.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># -*- coding:utf-8 -*-\r\n\r\ndef str_judge(a):\r\n\r\n    length = len(a)\r\n    if length < 2 or length %2 != 0:\r\n        if a == '':\r\n            return True\r\n        else:\r\n            return False\r\n\r\n    count = 1\r\n    while(count <= length/2):\r\n        a = a.replace(\"{}\",\"\").replace(\"[]\",\"\").replace(\"()\",\"\")\r\n        print('a是：',a)\r\n        count += 1\r\n\r\n    if len(a) > 0:\r\n        return False\r\n    else:\r\n        return True\r\n\r\nif __name__ == '__main__':\r\n    a = input(\"请输入{/}/(/)/[/]此类字符串：\")\r\n    result = str_judge(a)\r\n    print(result)\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- workModel/InterviewDemo/str_judge.py	(revision a16a3c67b3b68936a15409a3903cbb39a69f8ee8)
++++ workModel/InterviewDemo/str_judge.py	(date 1598976226583)
+@@ -10,10 +10,12 @@
+             return False
+ 
+     count = 1
+-    while(count <= length/2):
++    while count <= length/2:
+         a = a.replace("{}","").replace("[]","").replace("()","")
+         print('a是：',a)
+         count += 1
++        if len(a) == 0:
++            break
+ 
+     if len(a) > 0:
+         return False
