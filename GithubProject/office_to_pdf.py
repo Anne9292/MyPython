@@ -29,7 +29,7 @@ class PDFConverter:
             else:
                 raise TypeError('文件{}后缀名不合法！仅支持如下文件类型：{}'.format(pathname, '、'.join(self._handle_postfix)))
         elif os.path.isdir(full_pathname):  # 判断是否为目录
-            for relpath, _, files in os.walk(full_pathname):  # os.walk()通过在目录树中游走输出在目录中的文件名，向上或者向下
+            for relpath, dirs, files in os.walk(full_pathname):  # os.walk()通过在目录树中游走输出在目录中的文件名，向上或者向下
                 for name in files:
                     filename = os.path.join(full_pathname, relpath, name)   # 将目录和文件名合成一个路径
                     print('=============文件完整路径是：', filename)
@@ -46,10 +46,11 @@ class PDFConverter:
         print('需要转换的文件数是：', len(self._filename_list))
         for filename in self._filename_list:
             postfix = filename.split('.')[-1].lower()
-            funcCall = getattr(self, postfix)  # 返回self对象的postfix属性值
-            print(type(funcCall), funcCall)
+            # postfix是文件后缀，每个后缀都有一个方法，故这里返回pdfConverter实例的方法doc()/ppt()/xls()等的地址
+            funcCall = getattr(self, postfix)
+            # print(type(funcCall), funcCall)
             print('原文件：', filename)
-            funcCall(filename)
+            funcCall(filename) # funcCall指向的是pdfConverter.doc()/xls()/ppt()等方法的地址，故可以直接调用
         print('转换完成！')
 
     # doc/docx转换为PDF

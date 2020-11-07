@@ -7,6 +7,7 @@
 /logs/latest/*.log
 /logs/latest/*.txt
 /logs/latest/*.html
+/venv/*
 /workModel/TestCase
 /workModel/work_project/GroupBuy.py
 /workModel/work_project/requestsDemo.py
