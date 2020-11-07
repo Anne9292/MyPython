@@ -9,7 +9,8 @@ import os
 
 # 文件转换逻辑
 class PDFConverter:
-    def __init__(self, pathname, export='.'):
+    """office文件转换为PDF"""
+    def __init__(self, pathname):
         self._handle_postfix = ['doc', 'docx', 'ppt', 'pptx', 'xls', 'xlsx']  # 支持转换的文件类型
         self._filename_list = list()   # 列出文件
         self._export_folder = os.path.join(os.path.abspath('E:\\test\\'), 'PDF\\')   # 将路径进行拼接
@@ -26,9 +27,9 @@ class PDFConverter:
             if self._is_legal_postfix(full_pathname):   # 判断文件后缀
                 self._filename_list.append(full_pathname)
             else:
-                raise  TypeError('文件{}后缀名不合法！仅支持如下文件类型：{}'.format(pathname, '、'.join(self._handle_postfix)))
+                raise TypeError('文件{}后缀名不合法！仅支持如下文件类型：{}'.format(pathname, '、'.join(self._handle_postfix)))
         elif os.path.isdir(full_pathname):  # 判断是否为目录
-            for relpath, _, files in os.walk(full_pathname):
+            for relpath, _, files in os.walk(full_pathname):  # os.walk()通过在目录树中游走输出在目录中的文件名，向上或者向下
                 for name in files:
                     filename = os.path.join(full_pathname, relpath, name)   # 将目录和文件名合成一个路径
                     print('=============文件完整路径是：', filename)
@@ -46,7 +47,7 @@ class PDFConverter:
         for filename in self._filename_list:
             postfix = filename.split('.')[-1].lower()
             funcCall = getattr(self, postfix)  # 返回self对象的postfix属性值
-            # print(type(funcCall), funcCall, postfix)
+            print(type(funcCall), funcCall)
             print('原文件：', filename)
             funcCall(filename)
         print('转换完成！')
@@ -105,9 +106,9 @@ class PDFConverter:
 
 if __name__ == '__main__':
     '''
-    支持文件夹批量导入,也支持单个文件的转换
+    支持文件夹批量导入, 也支持单个文件的转换
     '''
-    pathname = r"E:\test\2020-10-28\Log-2020-10-28.doc"
+    pathname = r"D:\书籍资料\SQL\doc\SQL查询及答案.doc"
     pdfConverter = PDFConverter(pathname)
     pdfConverter.run_convert()
 

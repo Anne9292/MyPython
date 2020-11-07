@@ -25,6 +25,8 @@
           <option value="Models.SaveRes.*" />
           <option value="str.readline" />
           <option value="str.*" />
+          <option value="GithubProject.office_to_pdf.*" />
+          <option value="office_to_pdf.*" />
         </list>
       </option>
     </inspection_tool>
