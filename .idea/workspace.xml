@@ -30,47 +30,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2add5b57-204a-4132-add9-5954970408f0" name="Default" comment="commit app_start_time.py update">
+      <change afterPath="$PROJECT_DIR$/ObjectDemo/继承.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MyPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyPython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/anne_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/anne_home.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/terminal.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataTypeDemo/DayDayUp.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypeDemo/DayDayUp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataTypeDemo/TextProBar.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypeDemo/TextProBar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataTypeDemo/caisakEncy.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypeDemo/caisakEncy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drawModel/drawDemo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrawModel/drawDemo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drawModel/pythonDraw.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrawModel/pythonDraw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drawModel/turtleDraw.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrawModel/turtleDraw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesDemo/readRule.py" beforeDir="false" afterPath="$PROJECT_DIR$/FilesDemo/readRule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesDemo/readWriteFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/FilesDemo/readWriteFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesDemo/read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/FilesDemo/read_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functionDemo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionDemo/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functionDemo/defineFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionDemo/defineFunction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functionDemo/factorial_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionDemo/factorial_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functionDemo/function_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionDemo/function_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functionDemo/groupModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionDemo/groupModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listModel/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ListModel/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listModel/listTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ListModel/listTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loopDemo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoopDemo/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loopDemo/strdemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoopDemo/strdemo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objectDemo/object_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectDemo/object_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumDemo/baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumDemo/baidu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/InterviewDemo/binary_search_find.py" beforeDir="false" afterPath="$PROJECT_DIR$/WorkModel/InterviewDemo/binary_search_find.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/InterviewDemo/compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/WorkModel/InterviewDemo/compare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/InterviewDemo/dst_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/WorkModel/InterviewDemo/dst_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/InterviewDemo/map_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/WorkModel/InterviewDemo/map_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/InterviewDemo/node_operate.py" beforeDir="false" afterPath="$PROJECT_DIR$/WorkModel/InterviewDemo/node_operate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/InterviewDemo/recursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/WorkModel/InterviewDemo/recursion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/InterviewDemo/sort_algo.py" beforeDir="false" afterPath="$PROJECT_DIR$/WorkModel/InterviewDemo/sort_algo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/InterviewDemo/src_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/WorkModel/InterviewDemo/src_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/InterviewDemo/str_judge.py" beforeDir="false" afterPath="$PROJECT_DIR$/WorkModel/InterviewDemo/str_judge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/InterviewDemo/test-node.py" beforeDir="false" afterPath="$PROJECT_DIR$/WorkModel/InterviewDemo/test-node.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/WorkModel/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/work_project/PickupCodeBuy.py" beforeDir="false" afterPath="$PROJECT_DIR$/WorkModel/work_project/PickupCodeBuy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/work_project/VoucherCreate.py" beforeDir="false" afterPath="$PROJECT_DIR$/WorkModel/work_project/VoucherCreate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/work_project/app_start_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/WorkModel/work_project/app_start_time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/work_project/lottery.py" beforeDir="false" afterPath="$PROJECT_DIR$/WorkModel/work_project/lottery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workModel/work_project/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WorkModel/work_project/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GithubProject/office_to_pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/GithubProject/office_to_pdf.py" afterDir="false" />
     </list>
     <list id="2e377dc4-4228-475c-ba0e-80923b1a62e3" name="update model name" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,6 +90,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="messageId&#9;null&#9;null&#10;desstr&#9;null&#9;null&#10;checkdata&#9;null&#9;null&#10;RandomNo&#9;null&#9;null&#10;popleft&#9;null&#9;null" />
@@ -131,7 +98,8 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Robot" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/.idea/dictionaries/Terry_Wei.xml" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../new1/.settings" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -144,22 +112,22 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PyCharm\PycharmProjects\MyPython" />
-      <recent name="D:\PyCharm\PycharmProjects\MyPython\workModel\InterviewDemo" />
-      <recent name="D:\PyCharm\PycharmProjects\MyPython\workModel\work_project" />
-      <recent name="D:\PyCharm\PycharmProjects\MyPython\MyDemo\loopDemo" />
-      <recent name="D:\PyCharm\PycharmProjects\MyPython\MyDemo\listModel" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PyCharm\PycharmProjects\MyPython" />
       <recent name="D:\PycharmProjects\test_http_api\script" />
       <recent name="D:\PycharmProjects\test_http_api\log\20180706" />
       <recent name="D:\PycharmProjects\test_http_api\api_test_case\wallet\hongbao" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\PycharmProject\MyPython\FunctionDemo" />
+      <recent name="D:\workspace\PycharmProject\MyPython\WorkModel\work_project" />
+      <recent name="D:\workspace\PycharmProject\MyPython\WorkModel" />
+      <recent name="D:\PyCharm\PycharmProjects\MyPython" />
+      <recent name="D:\PyCharm\PycharmProjects\MyPython\workModel\InterviewDemo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.局部函数">
-    <configuration name="可变参数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.office_to_pdf">
+    <configuration name="类实例化" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,12 +135,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FunctionDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ObjectDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FunctionDemo/可变参数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ObjectDemo/类实例化.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="继承" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ObjectDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ObjectDemo/继承.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,28 +215,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="形参_实参" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FunctionDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FunctionDemo/形参_实参.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="MyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -269,7 +237,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="factorial_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="app_start_time" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,12 +245,78 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FunctionDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorkModel/work_project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FunctionDemo/factorial_function.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkModel/work_project/app_start_time.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="baidu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumDemo/baidu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="easy_install" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib/site-packages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib/site-packages/easy_install.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="office_to_pdf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\杨婷\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GithubProject" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GithubProject/office_to_pdf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -371,19 +405,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.factorial_function" />
-      <item itemvalue="Python.形参_实参" />
-      <item itemvalue="Python.可变参数" />
-      <item itemvalue="Python.多返回值" />
-      <item itemvalue="Python.局部函数" />
+      <item itemvalue="Python.类实例化" />
+      <item itemvalue="Python.office_to_pdf" />
+      <item itemvalue="Python.easy_install" />
+      <item itemvalue="Python.baidu" />
+      <item itemvalue="Python.app_start_time" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.局部函数" />
-        <item itemvalue="Python.多返回值" />
-        <item itemvalue="Python.可变参数" />
-        <item itemvalue="Python.形参_实参" />
-        <item itemvalue="Python.factorial_function" />
+        <item itemvalue="Python.office_to_pdf" />
+        <item itemvalue="Python.app_start_time" />
+        <item itemvalue="Python.baidu" />
+        <item itemvalue="Python.类实例化" />
+        <item itemvalue="Python.easy_install" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +440,21 @@
       <workItem from="1604127905603" duration="1247000" />
       <workItem from="1604196386308" duration="4277000" />
       <workItem from="1604323411528" duration="694000" />
-      <workItem from="1604324169951" duration="7793000" />
+      <workItem from="1604324169951" duration="21740000" />
+      <workItem from="1604722207610" duration="866000" />
+      <workItem from="1604723122721" duration="1339000" />
+      <workItem from="1604724842733" duration="54000" />
+      <workItem from="1604724913596" duration="360000" />
+      <workItem from="1604725303585" duration="308000" />
+      <workItem from="1604725714162" duration="502000" />
+      <workItem from="1604727722282" duration="2787000" />
+      <workItem from="1604730845187" duration="1687000" />
+      <workItem from="1604733063013" duration="463000" />
+      <workItem from="1604734862419" duration="22000" />
+      <workItem from="1604735044852" duration="53000" />
+      <workItem from="1604735099456" duration="65000" />
+      <workItem from="1604735270731" duration="65000" />
+      <workItem from="1604735370826" duration="4064000" />
     </task>
     <task id="LOCAL-00001" summary="sort_algo commit">
       <created>1590388845964</created>
@@ -460,15 +508,6 @@
     <option name="localTasksCounter" value="8" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
@@ -477,7 +516,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -529,14 +580,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="465" y="9" key="#caisakEncy/0.0.1536.834@0.0.1536.834" timestamp="1603595435958" />
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604118725572">
+    <state x="223" y="72" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604733461702">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1604118725572" />
-    <state x="893" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603598349481">
+    <state x="223" y="72" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1604733461702" />
+    <state x="893" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604716680735">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="893" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1603598349481" />
+    <state x="893" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1604716680735" />
+    <state x="361" y="113" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1604735131073">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="113" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1604735131073" />
     <state x="536" y="309" width="473" height="502" key="#com.intellij.tools.ToolEditorDialog" timestamp="1604327565135">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -561,54 +616,66 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="465" y="9" key="#turtleDraw/0.0.1536.834@0.0.1536.834" timestamp="1602422270640" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604127676678">
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1604496502276">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604127676678" />
-    <state width="1492" height="268" key="GridCell.Tab.0.bottom" timestamp="1604495041125">
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1604496502276" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604735607411">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="268" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604495041125" />
-    <state width="1492" height="268" key="GridCell.Tab.0.center" timestamp="1604495041125">
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604735607411" />
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1604737955767">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="268" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1604495041125" />
-    <state width="1492" height="268" key="GridCell.Tab.0.left" timestamp="1604495041125">
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604737955767" />
+    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1604737955767">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="268" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1604495041125" />
-    <state width="1492" height="268" key="GridCell.Tab.0.right" timestamp="1604495041125">
+    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1604737955767" />
+    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1604737955767">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="268" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1604495041125" />
-    <state width="746" height="256" key="GridCell.Tab.1.bottom" timestamp="1601304642206">
+    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1604737955767" />
+    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1604737955767">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="256" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1601304642206" />
-    <state width="746" height="256" key="GridCell.Tab.1.center" timestamp="1601304642206">
+    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1604737955767" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1604737955767">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="256" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1601304642206" />
-    <state width="746" height="256" key="GridCell.Tab.1.left" timestamp="1601304642206">
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604737955767" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1604737955767">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="256" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1601304642206" />
-    <state width="746" height="256" key="GridCell.Tab.1.right" timestamp="1601304642206">
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1604737955767" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1604737955767">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="256" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1601304642206" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1604737955767" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1604737955767">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1604737955767" />
     <state x="349" y="152" key="IDE.errors.dialog" timestamp="1604196513666">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="349" y="152" key="IDE.errors.dialog/0.0.1536.834@0.0.1536.834" timestamp="1604196513666" />
-    <state x="286" y="77" key="SettingsEditor" timestamp="1604495381459">
+    <state x="403" y="178" key="MultipleFileMergeDialog" timestamp="1604496111310">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="286" y="77" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1604495381459" />
+    <state x="403" y="178" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1604496111310" />
+    <state x="286" y="77" key="SettingsEditor" timestamp="1604735615877">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="286" y="77" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1604735615877" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1603595871065">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1603595871065" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604496138324">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604496138324" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.RecentChangeDialog" timestamp="1603595954032">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -617,14 +684,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="325" y="146" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834@0.0.1536.834" timestamp="1601302068517" />
-    <state x="468" y="15" width="600" height="804" key="find.popup" timestamp="1603595708533">
+    <state x="468" y="15" width="600" height="804" key="find.popup" timestamp="1604733409367">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="468" y="15" width="600" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1603595708533" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1603595897551">
+    <state x="468" y="15" width="600" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1604733409367" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1604725896822">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1603595897551" />
+    <state width="600" height="428" key="javadoc.popup/0.0.1536.834@0.0.1536.834" timestamp="1604725896822" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1604724850904">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1604724850904" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -637,12 +708,22 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MyPython$get_dir_file.coverage" NAME="get_dir_file Coverage Results" MODIFIED="1604728575706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FunctionDemo" />
     <SUITE FILE_PATH="coverage/MyPython$factorial_function.coverage" NAME="factorial_function Coverage Results" MODIFIED="1604324540891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FunctionDemo" />
     <SUITE FILE_PATH="coverage/MyPython$TextProBar.coverage" NAME="TextProBar Coverage Results" MODIFIED="1604128542958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataTypeDemo" />
-    <SUITE FILE_PATH="coverage/MyPython$_.coverage" NAME="形参_实参 Coverage Results" MODIFIED="1604326104012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FunctionDemo" />
-    <SUITE FILE_PATH="coverage/MyPython$.coverage" NAME="局部函数 Coverage Results" MODIFIED="1604494987271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FunctionDemo" />
+    <SUITE FILE_PATH="coverage/office_to_pdf_py$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1604736430411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SeleniumDemo" />
+    <SUITE FILE_PATH="coverage/office_to_pdf_py$office_to_pdf.coverage" NAME="office_to_pdf Coverage Results" MODIFIED="1604737483217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GithubProject" />
+    <SUITE FILE_PATH="coverage/MyPython$easy_install.coverage" NAME="easy_install Coverage Results" MODIFIED="1604728774421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib/site-packages" />
     <SUITE FILE_PATH="coverage/MyPython$open_read.coverage" NAME="open_read Coverage Results" MODIFIED="1604324379223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FilesDemo" />
     <SUITE FILE_PATH="coverage/MyPython$defineFunction.coverage" NAME="defineFunction Coverage Results" MODIFIED="1604323901743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FunctionDemo" />
+    <SUITE FILE_PATH="coverage/MyPython$drawDemo1.coverage" NAME="drawDemo1 Coverage Results" MODIFIED="1604728537672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DrawModel" />
+    <SUITE FILE_PATH="coverage/MyPython$_.coverage" NAME="形参_实参 Coverage Results" MODIFIED="1604326104012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FunctionDemo" />
+    <SUITE FILE_PATH="coverage/MyPython$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1604724430815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SeleniumDemo" />
+    <SUITE FILE_PATH="coverage/MyPython$office_to_pdf.coverage" NAME="office_to_pdf Coverage Results" MODIFIED="1604731025963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GithubProject" />
+    <SUITE FILE_PATH="coverage/MyPython$.coverage" NAME="继承 Coverage Results" MODIFIED="1604733327027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ObjectDemo" />
+    <SUITE FILE_PATH="coverage/MyPython$map_test.coverage" NAME="map_test Coverage Results" MODIFIED="1604501446972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkModel/InterviewDemo" />
+    <SUITE FILE_PATH="coverage/MyPython$lambda.coverage" NAME="lambda练习 Coverage Results" MODIFIED="1604502267137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FunctionDemo" />
+    <SUITE FILE_PATH="coverage/office_to_pdf_py$app_start_time.coverage" NAME="app_start_time Coverage Results" MODIFIED="1604736451320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkModel/work_project" />
     <SUITE FILE_PATH="coverage/MyPython$readRule.coverage" NAME="readRule Coverage Results" MODIFIED="1604197115608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FilesDemo" />
   </component>
   <component name="masterDetails">

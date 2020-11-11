@@ -1,17 +1,15 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
 # 自定义忽略文件
-*.pyc
 /logs/*.log
 /logs/*.txt
 /logs/*.html
 /logs/latest/*.log
 /logs/latest/*.txt
 /logs/latest/*.html
+/venv/*
 /workModel/TestCase
 /workModel/work_project/GroupBuy.py
 /workModel/work_project/requestsDemo.py
 /workModel/work_project/ConnectSql.py
-/venv/*
-/papi/*.sqlite3
-/utils/encrypt/__pycache__/*.pyc
+/WorkModel/work_project/groupModel.py

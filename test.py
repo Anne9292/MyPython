@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 '''
-    anne practice request model
+	anne practice request model
 '''
 __author__ = 'anne yang'
 
@@ -15,17 +15,16 @@ print(sum(range(1, 101)))
 print(reduce(lambda a, b: a+b, range(1, 101)))
 
 # 方法3
-
 sum = 0
 for i in range(1, 101):
-    sum += i
-    i += 1
+	sum += i
+	i += 1
 print(sum)
 
 # 二分查找法
 def binary_search(v, a):
 	first = 0
-	last = len(a) - 1	
+	last = len(a) - 1
 	while first <= last:
 		mid = (first + last) // 2
 		if a[mid] < v:
