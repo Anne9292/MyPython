@@ -15,3 +15,4 @@ class Animals(object):
 if __name__ == '__main__':
     dog = Animals('la', 'ee')
     dog.eat()
+    print(dog.eat())
