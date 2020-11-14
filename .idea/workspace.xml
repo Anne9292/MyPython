@@ -30,9 +30,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2add5b57-204a-4132-add9-5954970408f0" name="Default" comment="commit app_start_time.py update">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectDemo/property装饰器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectDemo/函数装饰器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectDemo/类装饰器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-04_21_21_[Default]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-11-04_21_21__Default_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObjectDemo/继承.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectDemo/继承.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FunctionDemo/可变参数.py" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionDemo/可变参数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectDemo/装饰器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectDemo/闭包.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectDemo/闭包.py" afterDir="false" />
     </list>
     <list id="2e377dc4-4228-475c-ba0e-80923b1a62e3" name="update model name" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +81,7 @@
       </set>
     </option>
   </component>
-  <component name="JupyterTrust" id="5b16a912-7c06-43ba-967e-9e412991d05b" />
+  <component name="JupyterTrust" id="a354e99c-a735-4c49-b869-aa8844b88af9" />
   <component name="ProjectId" id="1h8l3MwWbQQeAB4Ey49voxec7D1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -94,7 +100,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Robot" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/.idea/dictionaries/Terry_Wei.xml" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../new1/.settings" />
   </component>
@@ -108,22 +114,22 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\MyPython\InterviewDemo" />
+      <recent name="D:\workspace\PycharmProject\MyPython\FunctionDemo" />
+      <recent name="D:\workspace\PycharmProject\MyPython\WorkModel\work_project" />
+      <recent name="D:\workspace\PycharmProject\MyPython\WorkModel" />
+      <recent name="D:\PyCharm\PycharmProjects\MyPython" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PyCharm\PycharmProjects\MyPython" />
       <recent name="D:\PycharmProjects\test_http_api\script" />
       <recent name="D:\PycharmProjects\test_http_api\log\20180706" />
       <recent name="D:\PycharmProjects\test_http_api\api_test_case\wallet\hongbao" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\PycharmProject\MyPython\FunctionDemo" />
-      <recent name="D:\workspace\PycharmProject\MyPython\WorkModel\work_project" />
-      <recent name="D:\workspace\PycharmProject\MyPython\WorkModel" />
-      <recent name="D:\PyCharm\PycharmProjects\MyPython" />
-      <recent name="D:\PyCharm\PycharmProjects\MyPython\workModel\InterviewDemo" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.drawDemo1">
-    <configuration name="类实例化" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.函数装饰器 (1)">
+    <configuration name="函数装饰器 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,7 +142,73 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ObjectDemo/类实例化.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ObjectDemo/函数装饰器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="闭包" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ObjectDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ObjectDemo/闭包.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="函数装饰器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ObjectDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\PycharmProjects\MyPython\ObjectDemo\函数装饰器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="类装饰器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ObjectDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ObjectDemo/类装饰器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,7 +305,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app_start_time" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="property装饰器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,78 +313,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorkModel/work_project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ObjectDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkModel/work_project/app_start_time.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="baidu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumDemo/baidu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="drawDemo1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DrawModel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DrawModel/drawDemo1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="office_to_pdf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\杨婷\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GithubProject" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GithubProject/office_to_pdf.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ObjectDemo/property装饰器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -401,19 +407,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.类实例化" />
-      <item itemvalue="Python.app_start_time" />
-      <item itemvalue="Python.baidu" />
-      <item itemvalue="Python.office_to_pdf" />
-      <item itemvalue="Python.drawDemo1" />
+      <item itemvalue="Python.闭包" />
+      <item itemvalue="Python.函数装饰器" />
+      <item itemvalue="Python.类装饰器" />
+      <item itemvalue="Python.函数装饰器 (1)" />
+      <item itemvalue="Python.property装饰器" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.drawDemo1" />
-        <item itemvalue="Python.office_to_pdf" />
-        <item itemvalue="Python.baidu" />
-        <item itemvalue="Python.app_start_time" />
-        <item itemvalue="Python.类实例化" />
+        <item itemvalue="Python.函数装饰器 (1)" />
+        <item itemvalue="Python.property装饰器" />
+        <item itemvalue="Python.类装饰器" />
+        <item itemvalue="Python.函数装饰器" />
+        <item itemvalue="Python.闭包" />
       </list>
     </recent_temporary>
   </component>
@@ -450,9 +456,7 @@
       <workItem from="1604735044852" duration="53000" />
       <workItem from="1604735099456" duration="65000" />
       <workItem from="1604735270731" duration="65000" />
-      <workItem from="1604735370826" duration="6417000" />
-      <workItem from="1604821744771" duration="299000" />
-      <workItem from="1604822066612" duration="1558000" />
+      <workItem from="1604735370826" duration="4064000" />
     </task>
     <task id="LOCAL-00001" summary="sort_algo commit">
       <created>1590388845964</created>
@@ -586,10 +590,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="893" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1604716680735" />
-    <state x="361" y="113" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1604821547177">
+    <state x="361" y="113" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1604735131073">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="113" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1604821547177" />
+    <state x="361" y="113" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1604735131073" />
     <state x="536" y="309" width="473" height="502" key="#com.intellij.tools.ToolEditorDialog" timestamp="1604327565135">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -614,62 +618,66 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="465" y="9" key="#turtleDraw/0.0.1536.834@0.0.1536.834" timestamp="1602422270640" />
-    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1604821713968">
+    <state x="524" y="119" key="#xdebugger.evaluate" timestamp="1605239501009">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1604821713968" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604735607411">
+    <state x="524" y="119" key="#xdebugger.evaluate/0.0.1536.834@0.0.1536.834" timestamp="1605239501009" />
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1604496502276">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604735607411" />
-    <state width="1492" height="205" key="GridCell.Tab.0.bottom" timestamp="1604822049231">
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1604496502276" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1605071594495">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="205" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604822049231" />
-    <state width="1492" height="205" key="GridCell.Tab.0.center" timestamp="1604822049230">
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605071594495" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605262320481">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="205" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1604822049230" />
-    <state width="1492" height="205" key="GridCell.Tab.0.left" timestamp="1604822049230">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1605262320481" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605262320481">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="205" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1604822049230" />
-    <state width="1492" height="205" key="GridCell.Tab.0.right" timestamp="1604822049230">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1605262320481" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605262320481">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="205" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1604822049230" />
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1604737955767">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1605262320481" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605262320481">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604737955767" />
-    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1604737955767">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1605262320481" />
+    <state width="1493" height="270" key="GridCell.Tab.1.bottom" timestamp="1605261980150">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1604737955767" />
-    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1604737955767">
+    <state width="1493" height="270" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1605261980150" />
+    <state width="1493" height="270" key="GridCell.Tab.1.center" timestamp="1605261980150">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1604737955767" />
-    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1604737955767">
+    <state width="1493" height="270" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1605261980150" />
+    <state width="1493" height="270" key="GridCell.Tab.1.left" timestamp="1605261980150">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1604737955767" />
-    <state x="349" y="152" key="IDE.errors.dialog" timestamp="1604196513666">
+    <state width="1493" height="270" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1605261980150" />
+    <state width="1493" height="270" key="GridCell.Tab.1.right" timestamp="1605261980150">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="349" y="152" key="IDE.errors.dialog/0.0.1536.834@0.0.1536.834" timestamp="1604196513666" />
+    <state width="1493" height="270" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1605261980150" />
+    <state x="349" y="152" key="IDE.errors.dialog" timestamp="1605147888109">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="349" y="152" key="IDE.errors.dialog/0.0.1536.834@0.0.1536.834" timestamp="1605147888109" />
     <state x="403" y="178" key="MultipleFileMergeDialog" timestamp="1604496111310">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="403" y="178" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1604496111310" />
-    <state x="525" y="42" width="996" height="707" key="SettingsEditor" timestamp="1604822047409">
+    <state x="286" y="77" key="SettingsEditor" timestamp="1605071956389">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="525" y="42" width="996" height="707" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1604822047409" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1603595871065">
+    <state x="286" y="77" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1605071956389" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1605179244971">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1603595871065" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1605179244971" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604496138324">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -682,18 +690,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="325" y="146" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834@0.0.1536.834" timestamp="1601302068517" />
-    <state x="468" y="15" width="600" height="804" key="find.popup" timestamp="1604733409367">
+    <state x="468" y="15" width="600" height="804" key="find.popup" timestamp="1605258851239">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="468" y="15" width="600" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1604733409367" />
+    <state x="468" y="15" width="600" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1605258851239" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1604725896822">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1536.834@0.0.1536.834" timestamp="1604725896822" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1604724850904">
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1605240877293">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1604724850904" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1605240877293" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -706,23 +714,31 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyPython$get_dir_file.coverage" NAME="get_dir_file Coverage Results" MODIFIED="1604728575706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FunctionDemo" />
-    <SUITE FILE_PATH="coverage/MyPython$factorial_function.coverage" NAME="factorial_function Coverage Results" MODIFIED="1604324540891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FunctionDemo" />
     <SUITE FILE_PATH="coverage/MyPython$TextProBar.coverage" NAME="TextProBar Coverage Results" MODIFIED="1604128542958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataTypeDemo" />
-    <SUITE FILE_PATH="coverage/office_to_pdf_py$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1604736430411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SeleniumDemo" />
-    <SUITE FILE_PATH="coverage/office_to_pdf_py$office_to_pdf.coverage" NAME="office_to_pdf Coverage Results" MODIFIED="1604737483217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GithubProject" />
+    <SUITE FILE_PATH="coverage/MyPython$factorial_function.coverage" NAME="factorial_function Coverage Results" MODIFIED="1604324540891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FunctionDemo" />
     <SUITE FILE_PATH="coverage/MyPython$easy_install.coverage" NAME="easy_install Coverage Results" MODIFIED="1604728774421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib/site-packages" />
-    <SUITE FILE_PATH="coverage/MyPython$open_read.coverage" NAME="open_read Coverage Results" MODIFIED="1604324379223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FilesDemo" />
-    <SUITE FILE_PATH="coverage/MyPython$defineFunction.coverage" NAME="defineFunction Coverage Results" MODIFIED="1604323901743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FunctionDemo" />
-    <SUITE FILE_PATH="coverage/MyPython$drawDemo1.coverage" NAME="drawDemo1 Coverage Results" MODIFIED="1604821809491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DrawModel" />
     <SUITE FILE_PATH="coverage/MyPython$_.coverage" NAME="形参_实参 Coverage Results" MODIFIED="1604326104012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FunctionDemo" />
-    <SUITE FILE_PATH="coverage/MyPython$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1604724430815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SeleniumDemo" />
-    <SUITE FILE_PATH="coverage/MyPython$office_to_pdf.coverage" NAME="office_to_pdf Coverage Results" MODIFIED="1604731025963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GithubProject" />
-    <SUITE FILE_PATH="coverage/MyPython$.coverage" NAME="继承 Coverage Results" MODIFIED="1604733327027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ObjectDemo" />
-    <SUITE FILE_PATH="coverage/MyPython$map_test.coverage" NAME="map_test Coverage Results" MODIFIED="1604501446972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkModel/InterviewDemo" />
-    <SUITE FILE_PATH="coverage/MyPython$lambda.coverage" NAME="lambda练习 Coverage Results" MODIFIED="1604502267137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FunctionDemo" />
-    <SUITE FILE_PATH="coverage/office_to_pdf_py$app_start_time.coverage" NAME="app_start_time Coverage Results" MODIFIED="1604736451320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkModel/work_project" />
+    <SUITE FILE_PATH="coverage/office_to_pdf_py$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1604736430411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SeleniumDemo" />
+    <SUITE FILE_PATH="coverage/MyPython$benz_login.coverage" NAME="benz_login Coverage Results" MODIFIED="1601371460141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumDemo" />
+    <SUITE FILE_PATH="coverage/MyPython$drawDemo1.coverage" NAME="drawDemo1 Coverage Results" MODIFIED="1604728537672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DrawModel" />
+    <SUITE FILE_PATH="coverage/MyPython$get_dir_file.coverage" NAME="get_dir_file Coverage Results" MODIFIED="1605072058531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FunctionDemo" />
+    <SUITE FILE_PATH="coverage/MyPython$property.coverage" NAME="property装饰器 Coverage Results" MODIFIED="1605251848253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ObjectDemo" />
+    <SUITE FILE_PATH="coverage/MyPython$defineFunction.coverage" NAME="defineFunction Coverage Results" MODIFIED="1604374979349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functionDemo" />
+    <SUITE FILE_PATH="coverage/MyPython$compare.coverage" NAME="compare Coverage Results" MODIFIED="1604647252428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterviewDemo" />
     <SUITE FILE_PATH="coverage/MyPython$readRule.coverage" NAME="readRule Coverage Results" MODIFIED="1604197115608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FilesDemo" />
+    <SUITE FILE_PATH="coverage/MyPython$.coverage" NAME="类装饰器 Coverage Results" MODIFIED="1605239942466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ObjectDemo" />
+    <SUITE FILE_PATH="coverage/MyPython$function_1.coverage" NAME="function_1 Coverage Results" MODIFIED="1604375373142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functionDemo" />
+    <SUITE FILE_PATH="coverage/MyPython$map_test.coverage" NAME="map_test Coverage Results" MODIFIED="1604501446972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkModel/InterviewDemo" />
+    <SUITE FILE_PATH="coverage/MyPython$office_to_pdf.coverage" NAME="office_to_pdf Coverage Results" MODIFIED="1604646333717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GithubProject" />
+    <SUITE FILE_PATH="coverage/MyPython$lambda.coverage" NAME="lambda练习 Coverage Results" MODIFIED="1604502267137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FunctionDemo" />
+    <SUITE FILE_PATH="coverage/MyPython$main.coverage" NAME="main Coverage Results" MODIFIED="1604374440926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../web_selenium/exe_test" />
+    <SUITE FILE_PATH="coverage/MyPython$VoucherCreate.coverage" NAME="VoucherCreate Coverage Results" MODIFIED="1604646918320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/workModel/work_project" />
+    <SUITE FILE_PATH="coverage/MyPython$__1_.coverage" NAME="函数装饰器 (1) Coverage Results" MODIFIED="1605261814921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ObjectDemo" />
+    <SUITE FILE_PATH="coverage/MyPython$picture_add_number_0000.coverage" NAME="picture_add_number_0000 Coverage Results" MODIFIED="1604375745253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/github_project" />
+    <SUITE FILE_PATH="coverage/MyPython$open_read.coverage" NAME="open_read Coverage Results" MODIFIED="1604324379223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FilesDemo" />
+    <SUITE FILE_PATH="coverage/office_to_pdf_py$office_to_pdf.coverage" NAME="office_to_pdf Coverage Results" MODIFIED="1604737483217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GithubProject" />
+    <SUITE FILE_PATH="coverage/MyPython$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1601365739299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumDemo" />
+    <SUITE FILE_PATH="coverage/office_to_pdf_py$app_start_time.coverage" NAME="app_start_time Coverage Results" MODIFIED="1604736451320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkModel/work_project" />
   </component>
   <component name="masterDetails">
     <states>
