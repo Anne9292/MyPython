@@ -37,7 +37,7 @@ def lottery(event_id, user_id):
 
 # 装饰的增强函数：多个参数
 def log_time(server_id):
-    print('log_time running..............')
+    # print('log_time running..............')
     @wraps(server_id)
     def server_name(*args, **kwargs):
         before = time.time()
@@ -52,14 +52,14 @@ def log_time(server_id):
 
 @log_time
 def trade(*args, **kwargs):
-    for i in range(3):
+    for i in range(2):
         print('第%i次运行...' % i)
         print("{} like: {}".format(args, kwargs))
         time.sleep(1)
 
 # 装饰器：多个参数
 def event_logging(level):   # 装饰器的函数，参数是装饰器需要接收的
-    print('event_logging running.............')
+    # print('event_logging running.............')
     def decorator(server_name):    #  装饰的函数，参数是被装饰的增强函数的名称
         @wraps(server_name)     # 装饰器实现时，被装饰的函数已经是另外一个函数了，函数名等函数属性会发生改变，使用wraps(函数名)保留被装饰函数的属性
         def wrapper(*args, **kwargs):   # 增强函数，参数是业务函数的需要接收的
@@ -68,7 +68,7 @@ def event_logging(level):   # 装饰器的函数，参数是装饰器需要接�
             elif level == 'info':
                 logging.info('%s is running by info' % server_name.__name__)
             return server_name(*args, **kwargs)
-        print('@@@@@@@@@')
+        # print('@@@@@@@@@')
         return wrapper
     return decorator
 
@@ -79,9 +79,9 @@ def wallet_warn(*args, **kwargs):
     """\ntest wallet_warn!!!"""
     print("{} want to {} ----warn".format(args, kwargs))
 
-# @event_logging(level='info')
-# def wallet_info(*args, **kwargs):
-#     print("{} want to {} ----info".format(args, kwargs))
+@event_logging(level='info')
+def wallet_info(*args, **kwargs):
+    print("{} want to {} ----info".format(args, kwargs))
 
 
 if __name__ == '__main__':
@@ -89,6 +89,6 @@ if __name__ == '__main__':
     # lottery('lottery', '10086')
     args = ['anne', 20, 'female']
     dict = {'fruit': 'apple', 'sport': 'tennis', 'hobby': 'music'}
-    # trade(*args, **dict)
+    trade(*args, **dict)
     wallet_warn(*args, **dict)
     # print(wallet_warn.__name__, wallet_warn.__doc__)
