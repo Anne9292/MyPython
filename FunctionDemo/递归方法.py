@@ -1,19 +1,26 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
-#循环语句实现1*2*3*4*...*n
-def factorial1(n):
+# 循环语句实现1*2*3*4*...*n
+def fn1(n):
     results=n
     for i in range(1, n):
         results *= i
     return results
 
-#递归函数实现1*2*3*4*...*n
-def factorial2(n):
+# 递归函数实现1*2*3*4*...*n
+def fn2(n):
     if n==1:
         return 1
     else:
-        return n * factorial2(n-1)
+        return n * fn2(n-1)
+
+# 递归函数实现菲波列契数列
+def fn3(n):
+    assert n >= 0, 'n不能小于0'
+    if n < 2:
+        return n
+    return fn3(n-1) + fn3(n-2)
 
 #汉诺塔递归
 '''
@@ -33,9 +40,10 @@ def move(n, a, b, c): #a=操作变量，b=缓存变量，c=目标变量，n为�
         move(n-1, b, a, c)
 
 if __name__ == '__main__':
-    number = int(input("请输入一个整数："))
-    result1 = factorial1(number)
-    result2 = factorial2(number)
-    print("%d的阶乘是：%d" % (number, result1))
-    print("%d的阶乘是：%d" % (number, result2))
-    move(3,'A','B','C')
+    # number = int(input("请输入一个整数："))
+    # result1 = fn1(number)
+    # result2 = fn2(number)
+    # print("%d的阶乘是：%d" % (number, result1))
+    # print("%d的阶乘是：%d" % (number, result2))
+    # move(3,'A','B','C')
+    print([fn3(i) for i in range(1, 11)])
