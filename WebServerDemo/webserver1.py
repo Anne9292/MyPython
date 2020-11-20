@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#!/usr/bin/env python
 #-*- coding:utf-8 -*-
 
 import socket
@@ -16,17 +16,17 @@ def test_webserver(HOST, PORT):
 	print('The url is http://localhost:%d' % PORT)
 
 	while True:
-	    http_response = '''
+		http_response = '''
 		HTTP/1.1 200 OK
 		Content-Type: text/html
 
 		Hello, my first python server-8001
 		'''
-	    Client, Address = listen_socket.accept()
-	    Request = Client.recv(1024)
-	    Client.sendall(http_response.encode(encoding='utf-8'))
-	    Client.close()
+		Client, Address = listen_socket.accept()
+		Request = Client.recv(1024)
+		Client.sendall(http_response.encode(encoding='utf-8'))
+		Client.close()
 
 if __name__ == '__main__':
-    test_webserver('localhost', 8001)
-    # test_webserver('192.168.146.135', 8002)
+	test_webserver('localhost', 8001)
+	# test_webserver('192.168.146.135', 8002)

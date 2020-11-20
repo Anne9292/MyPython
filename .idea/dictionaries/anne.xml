@@ -1,8 +1,10 @@
 <component name="ProjectDictionaryState">
   <dictionary name="anne">
     <words>
+      <w>asctime</w>
       <w>dataval</w>
       <w>headval</w>
+      <w>levelname</w>
       <w>newdata</w>
       <w>newnode</w>
       <w>nextval</w>

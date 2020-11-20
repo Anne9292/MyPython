@@ -86,7 +86,7 @@ def wallet_info(*args, **kwargs):
 
 if __name__ == '__main__':
 
-    # lottery('lottery', '10086')
+    lottery('lottery', '10086')
     args = ['anne', 20, 'female']
     dict = {'fruit': 'apple', 'sport': 'tennis', 'hobby': 'music'}
     trade(*args, **dict)

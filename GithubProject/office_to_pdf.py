@@ -29,9 +29,10 @@ class PDFConverter:
             else:
                 raise TypeError('文件{}后缀名不合法！仅支持如下文件类型：{}'.format(pathname, '、'.join(self._handle_postfix)))
         elif os.path.isdir(full_pathname):  # 判断是否为目录
-            for relpath, dirs, files in os.walk(full_pathname):  # os.walk()通过在目录树中游走输出在目录中的文件名，向上或者向下
+            for root, dirs, files in os.walk(full_pathname):  # os.walk()通过在目录树中游走输出在目录中的文件名，向上或者向下
+                print('root={},\ndirs={},\nfiles={}\n'.format(root, dirs, files))
                 for name in files:
-                    filename = os.path.join(full_pathname, relpath, name)   # 将目录和文件名合成一个路径
+                    filename = os.path.join(root, name)   # 将目录和文件名合成一个路径
                     print('=============文件完整路径是：', filename)
                     if self._is_legal_postfix(filename):
                         self._filename_list.append(os.path.join(filename))
@@ -109,7 +110,7 @@ if __name__ == '__main__':
     '''
     支持文件夹批量导入, 也支持单个文件的转换
     '''
-    pathname = r"D:\书籍资料\SQL\doc\SQL查询及答案.doc"
+    pathname = r"E:\test\test-2"
     pdfConverter = PDFConverter(pathname)
     pdfConverter.run_convert()
 
