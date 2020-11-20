@@ -57,7 +57,7 @@ def trade(*args, **kwargs):
         print("{} like: {}".format(args, kwargs))
         time.sleep(1)
 
-# 装饰器：多个参数
+# 装饰器：传参
 def event_logging(level):   # 装饰器的函数，参数是装饰器需要接收的
     # print('event_logging running.............')
     def decorator(server_name):    #  装饰的函数，参数是被装饰的增强函数的名称
@@ -91,4 +91,4 @@ if __name__ == '__main__':
     dict = {'fruit': 'apple', 'sport': 'tennis', 'hobby': 'music'}
     trade(*args, **dict)
     wallet_warn(*args, **dict)
-    # print(wallet_warn.__name__, wallet_warn.__doc__)
+    print(wallet_warn.__name__, wallet_warn.__doc__)
