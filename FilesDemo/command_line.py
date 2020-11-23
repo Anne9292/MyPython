@@ -14,5 +14,9 @@ def command_system(command):
 
 # 开启子进程执行命令，通过read()方法返回命令结果
 def command_popen(command):
-	res = os.popen('ipconfig')
+	res = os.popen(command)
 	print(res.read())
+
+if __name__ == '__main__':
+	com = 'ipconfig'
+	command_system(com)
