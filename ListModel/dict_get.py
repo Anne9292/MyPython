@@ -4,74 +4,58 @@
 # datetime: 2020-11-23 21:53
 # filename: PyCharm-dict_get
 
+import time
+import logging
 
-# 获取嵌套字典中的key: 字典相互嵌套
-# def dict_get(dict1, objkey, default=None):
-#     for k, v in dict1.items():
-#         if k == objkey:
-#             return v
-#         else:
-#             if type(v) is dict:
-#                 ret = dict_get(v, objkey, default)
-#                 if ret is not default:
-#                     return ret
-#     return default
+FORMAT = '%(asctime)s-%(levelname)s: %(message)s'
+logging.basicConfig(format=FORMAT, level=logging.INFO)
 
 """
 获取嵌套列表字典中的key: 字典/列表/元组相互嵌套
-dic: 字典
+迭代当前dict的所有元素, 对元素挨个依次比较key与所需要的key, 如果相同就保存在输出的list中.
+然后如果遇到value是属于又一个dict, 则进行递归, 再次对这个子dict进行相同操作. 最后循环结束后输出list
+in_json: 字典
 key: 目标key
 """
-def getdictvalue(dic, key):
-    result = []
-    if isinstance(dic, dict):
-        try:
-            value = dic[key]
-            result.append(value)
-        except Exception as e:
-            pass
-        for valuedd in dic.values():
-            if isinstance(valuedd, dict):
-                yied_result = getdictvalue(valuedd, key)
-                if len(yied_result) != 0:
-                    result.append(getdictvalue(valuedd, key))
-            elif isinstance(valuedd, (list, tuple)):
-                for item in dic:
-                    valueitem = getdictvalue(valuedd, key)
-                    if valueitem != "None" and valueitem is not None and len(valueitem) != 0:
-                        if valueitem not in result:
-                            result.append(valueitem)
 
-    elif isinstance(dic, (list, tuple)):
-        for item in dic:
-            value = getdictvalue(item, key)
-            if value != "None" and value is not None and len(value) != 0:
-                if value not in result:
-                    result.append(value)
-    return result
+def get_dict_value_by_key(in_json, target_key, results=None):
+    before = time.time()
+    if results is None:
+        results = []
+    if isinstance(in_json, dict):  # 如果输入数据的格式为dict
+        for key in in_json.keys():  # 循环获取key
+            data = in_json[key]
+            get_dict_value_by_key(data, target_key, results=results)  # 递归当前key对应的value
+            if key == target_key:
+                results.append(data)  # 如果当前key与目标key相同就将当前key的value添加到输出列表
 
-class listchangetype(object):
-  """对于查找后的list的数据的清洗"""
-  def __init__(self):
-    self.arg = []
-  def make(self,listone):
-    for i in listone:
-      if isinstance(i,(type,list)):
-        for l in i:
-          self.make(i)
-      else:
-        if i not in self.arg:
-          self.arg.append(i)
-    return self.arg
+    elif isinstance(in_json, (list, tuple)):  # 如果输入数据格式为list或者tuple
+        for data in in_json:  # 循环当前列表
+            get_dict_value_by_key(data, target_key, results=results)  # 回归列表的当前的元素
+    after = time.time()
+    run_time = after - before
+    logging.info(f'运行时间是：{run_time}ms')
+    return results
+
+# 对查找后的list数据进行清洗
+# def make(listone, arg=None):
+#     if arg is None:
+#         arg = []
+#     for i in listone:
+#         if isinstance(i, (type, list)):
+#             for _ in i:
+#                 make(i, arg=arg)
+#         else:
+#             if i not in arg:
+#                 arg.append(i)
+#     return arg
+
 
 if __name__ == '__main__':
-    dicttest = {'data': {'list1': [{'test1': (1, 2, 3)}, {'test2': '2'}, {'test3': '3'}],
-                          'list2': [{'test1': '11'}, {'test2': '22'}, {'test3': '33'}],
-                          'list3': [{'test1': '12'}, {'test2': '23'}, {'test3': '34'}]
+    dict_test = {'data': {'list1': [{'test1': (1, 2, 3)}, {'test2': '2'}, {'test3': '3'}],
+                          'list2': [{'test1': {'price_range': [10.2, 12.4]}}, {'test2': '22'}, {'test3': '33'}],
+                          'list3': [{'test1': 1}, {'test2': '23'}, {'test3': '34'}]
                           }
                  }
-    res = getdictvalue(dicttest, 'test1')
-    a = listchangetype()
-    print(a.make(res))
-    # ret = dict_get(dicttest, 'test1')
-    # print(ret)
+    res = get_dict_value_by_key(dict_test, 'list1')[0]
+    print(res)
