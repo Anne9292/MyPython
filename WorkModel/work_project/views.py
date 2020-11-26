@@ -4,6 +4,7 @@
 '''
     anne practice request model
 '''
+
 __author__ = 'anne yang'
 
 import requests
@@ -27,7 +28,7 @@ def search_api_name(request):
     }
     r = requests.post(url, json=params)
     if r != '':
-        event_turple = db_test.select_all('select * from vm_goods where user_id like ' + "'%" + r + "%'")
+        event_turple = r.select_all('select * from vm_goods where user_id like ' + "'%" + r + "%'")
         event_list = []
         if len(event_turple) != 0:
             for i in event_turple:

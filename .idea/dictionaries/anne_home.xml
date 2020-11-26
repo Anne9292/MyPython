@@ -3,7 +3,10 @@
     <words>
       <w>exportfile</w>
       <w>fpath</w>
+      <w>listone</w>
+      <w>objkey</w>
       <w>relpath</w>
+      <w>yied</w>
     </words>
   </dictionary>
 </component>
