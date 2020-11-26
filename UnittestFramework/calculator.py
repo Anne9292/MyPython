@@ -1,8 +1,8 @@
-#! /usr/bin/env python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # author: anne
 # datetime: 2020-11-22 15:01
-# filename: PyCharm-calculator
+# filename: MyPython/calculator
 
 class Calculator(object):
 
@@ -21,4 +21,7 @@ class Calculator(object):
 
     def divsion(self):
         return self.a / self.b
+
+# res = Calculator(10, 5)
+# res.add()
 
