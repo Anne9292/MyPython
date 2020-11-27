@@ -58,5 +58,5 @@ if __name__ == '__main__':
     suite.addTests(tests)
 
     # 执行测试集合
-    runner = unittest.TextTestRunner(verbosity=1)
+    runner = unittest.TextTestRunner(verbosity=2)
     runner.run(suite)

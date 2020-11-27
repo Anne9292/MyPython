@@ -4,6 +4,7 @@
       <w>asctime</w>
       <w>dataval</w>
       <w>divsion</w>
+      <w>getcwd</w>
       <w>headval</w>
       <w>levelname</w>
       <w>newdata</w>
@@ -11,6 +12,8 @@
       <w>nextval</w>
       <w>printnode</w>
       <w>printval</w>
+      <w>testcase</w>
+      <w>testclass</w>
     </words>
   </dictionary>
 </component>

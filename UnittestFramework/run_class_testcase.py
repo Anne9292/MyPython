@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # author: anne
 # datetime: 2020-11-26 18:01
-# filename: MyPython/run_testcase
+# filename: MyPython/run_class_testcase
 
 import unittest
 from testclass_1 import TestCalculator1
