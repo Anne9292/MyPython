@@ -60,7 +60,7 @@ def trade(*args, **kwargs):
 # 装饰器：传参
 def event_logging(level):   # 装饰器的函数，参数是装饰器需要接收的
     # print('event_logging running.............')
-    def decorator(server_name):    #  装饰的函数，参数是被装饰的增强函数的名称
+    def decorator(server_name):    # 装饰的函数，参数是被装饰的增强函数的名称
         @wraps(server_name)     # 装饰器实现时，被装饰的函数已经是另外一个函数了，函数名等函数属性会发生改变，使用wraps(函数名)保留被装饰函数的属性
         def wrapper(*args, **kwargs):   # 增强函数，参数是业务函数的需要接收的
             if level == 'warn':
@@ -86,7 +86,7 @@ def wallet_info(*args, **kwargs):
 
 if __name__ == '__main__':
 
-    lottery('lottery', '10086')
+    # lottery('lottery', '10086')
     args = ['anne', 20, 'female']
     dict = {'fruit': 'apple', 'sport': 'tennis', 'hobby': 'music'}
     trade(*args, **dict)

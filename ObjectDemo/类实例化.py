@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # -*- coding:utf-8 -*-
 
+
 # class MyClass(object):  # 新式类
 class MyClass:            # 经典类
     """一个简单的类实例"""
@@ -9,7 +10,9 @@ class MyClass:            # 经典类
     def f(self):
         return 'hello world'
 
+
 if __name__ == '__main__':
+
     # 实例化类
     x = MyClass()
     # 访问类的属性和方法
