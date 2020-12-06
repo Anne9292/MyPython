@@ -29,6 +29,7 @@
           <option value="GithubProject.office_to_pdf.*" />
           <option value="office_to_pdf.*" />
           <option value="pythoncom.CoInitialize" />
+          <option value="selenium.webdriver.chrome.webdriver.WebDriver.*" />
         </list>
       </option>
     </inspection_tool>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/UnittestFramework/UnittestTxtReport.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/../test_http_api/PublicMethod/Osql/api.db" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../test_http_api/api_test_case/account/账户收款.yaml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../test_http_api/log/20180522/二维码--泰国线上模拟客户端--二合一.log" charset="GBK" />

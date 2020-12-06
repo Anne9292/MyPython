@@ -34,7 +34,7 @@ class TestCalculator2(unittest.TestCase):
     @unittest.skipIf(sys.platform.startswith('win32'), 'windows系统不可执行')
     def test_004_divsion(self):
         """Test method divsion(a, b)"""
-        self.assertEqual(self.result.divsion(), 2, "计算错误")
+        self.assertEqual(self.result.divsion(), 3, "计算错误")
 
     def teardown(self):
         pass

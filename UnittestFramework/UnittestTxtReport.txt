@@ -1,0 +1,63 @@
+test_001_add (testclass_1.TestCalculator1)
+Test method add(a, b) ... ok
+test_002_minus (testclass_1.TestCalculator1)
+Test method minus(a, b) ... ok
+test_003_multi (testclass_1.TestCalculator1)
+Test method multi(a, b) ... ok
+test_004_divsion (testclass_1.TestCalculator1)
+Test method divsion(a, b) ... ok
+test_001_add (testclass_2.TestCalculator2)
+Test method add(a, b) ... skipped '不执行加法用例'
+test_002_minus (testclass_2.TestCalculator2)
+Test method minus(a, b) ... skipped 'linux系统才可执行'
+test_003_multi (testclass_2.TestCalculator2)
+Test method multi(a, b) ... unexpected success
+test_004_divsion (testclass_2.TestCalculator2)
+Test method divsion(a, b) ... skipped 'windows系统不可执行'
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+FAILED (skipped=3, unexpected successes=1)
+test_001_add (testclass_1.TestCalculator1)
+Test method add(a, b) ... ok
+test_002_minus (testclass_1.TestCalculator1)
+Test method minus(a, b) ... ok
+test_003_multi (testclass_1.TestCalculator1)
+Test method multi(a, b) ... ok
+test_004_divsion (testclass_1.TestCalculator1)
+Test method divsion(a, b) ... ok
+test_001_add (testclass_2.TestCalculator2)
+Test method add(a, b) ... skipped '不执行加法用例'
+test_002_minus (testclass_2.TestCalculator2)
+Test method minus(a, b) ... skipped 'linux系统才可执行'
+test_003_multi (testclass_2.TestCalculator2)
+Test method multi(a, b) ... unexpected success
+test_004_divsion (testclass_2.TestCalculator2)
+Test method divsion(a, b) ... skipped 'windows系统不可执行'
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+FAILED (skipped=3, unexpected successes=1)
+test_001_add (testclass_1.TestCalculator1)
+Test method add(a, b) ... ok
+test_002_minus (testclass_1.TestCalculator1)
+Test method minus(a, b) ... ok
+test_003_multi (testclass_1.TestCalculator1)
+Test method multi(a, b) ... ok
+test_004_divsion (testclass_1.TestCalculator1)
+Test method divsion(a, b) ... ok
+test_001_add (testclass_2.TestCalculator2)
+Test method add(a, b) ... skipped '不执行加法用例'
+test_002_minus (testclass_2.TestCalculator2)
+Test method minus(a, b) ... skipped 'linux系统才可执行'
+test_003_multi (testclass_2.TestCalculator2)
+Test method multi(a, b) ... unexpected success
+test_004_divsion (testclass_2.TestCalculator2)
+Test method divsion(a, b) ... skipped 'windows系统不可执行'
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.005s
+
+FAILED (skipped=3, unexpected successes=1)

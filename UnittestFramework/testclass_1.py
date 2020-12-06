@@ -38,7 +38,7 @@ class TestCalculator1(unittest.TestCase):
 
     # 定义teardown()方法用于测试用例执行后的善后工作
     def teardown(self):
-        print('test end...')
+        pass
 
 if __name__ == '__main__':
     # unittest.main()方法会搜索该模块下所有test开头的测试用例方法，并自动执行他们，verbosity打印信息等级，越大越详细

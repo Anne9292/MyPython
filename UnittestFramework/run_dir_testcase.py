@@ -5,7 +5,7 @@
 # filename: MyPython/run_dir_testcase
 
 import unittest
-import os
+# import os
 # from testclass_1 import TestCalculator1
 # from testclass_2 import TestCalculator2
 
@@ -22,7 +22,7 @@ if __name__ == '__main__':
     # 方式二：
     test_dir = './'
     suite = unittest.defaultTestLoader.discover(test_dir, pattern='test*.py')
-    # suite.addTests(dir)
+    # suite.addTests(test_dir)
 
     # 运行测试套件, stream
     with open('UnittestTxtReport.txt', 'a') as f:

@@ -1,0 +1,625 @@
+{
+  "id": "e7d40951-bb36-4dda-9d19-b21f4a21261b",
+  "version": "2.0",
+  "name": "baidu_test",
+  "url": "https://www.baidu.com",
+  "tests": [{
+    "id": "8d57dac1-49c2-4b4e-ae38-5e868a5baf61",
+    "name": "baidu_test_1",
+    "commands": [{
+      "id": "284fadb1-61fa-46fd-b179-a2a746a80e07",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc50b11c-637c-4ef6-b3f7-ecc2d2f4b948",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "738x710",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36662274-d4ed-4606-b8ae-73d5b678562f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.news-meta-item:nth-child(2) .title-content-title",
+      "targets": [
+        ["css=.news-meta-item:nth-child(2) .title-content-title", "css:finder"],
+        ["xpath=//div[@id='s_xmancard_news_new']/div/div/ul/li[2]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'重庆永川吊水洞煤矿事故致23死')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win315",
+      "windowTimeout": 2000
+    }, {
+      "id": "8be6aa80-272e-44f9-a90f-e7aec0621f79",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55df3da0-0953-4e98-80d5-0883dc7a6278",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win315}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ccc70da-befa-404f-a34c-0038f17466b5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60cbdd10-a818-4050-9592-d89a87c7c7ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=kw",
+      "targets": [
+        ["id=kw", "id"],
+        ["name=wd", "name"],
+        ["css=#kw", "css:finder"],
+        ["xpath=//input[@id='kw']", "xpath:attributes"],
+        ["xpath=//span[@id='s_kw_wrap']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2efc3ed-9b55-4903-8492-82226d30e449",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68426b67-a2ed-43c9-8f3c-0512e73a0cf9",
+      "comment": "",
+      "command": "type",
+      "target": "id=kw",
+      "targets": [
+        ["id=kw", "id"],
+        ["name=wd", "name"],
+        ["css=#kw", "css:finder"],
+        ["xpath=//input[@id='kw']", "xpath:attributes"],
+        ["xpath=//span[@id='s_kw_wrap']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "测试啦"
+    }, {
+      "id": "02afb347-3fb8-4cfe-8569-ab23b16ac7b8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=kw",
+      "targets": [
+        ["id=kw", "id"],
+        ["name=wd", "name"],
+        ["css=#kw", "css:finder"],
+        ["xpath=//input[@id='kw']", "xpath:attributes"],
+        ["xpath=//span[@id='s_kw_wrap']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "37222bbf-c188-4aed-8ce4-edcad659eb90",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=嫦娥五号完成样品在轨转移",
+      "targets": [
+        ["linkText=嫦娥五号完成样品在轨转移", "linkText"],
+        ["css=tbody:nth-child(1) > .toplist1-tr:nth-child(1) .c-font-medium", "css:finder"],
+        ["xpath=//a[contains(text(),'嫦娥五号完成样品在轨转移')]", "xpath:link"],
+        ["xpath=//div[@id='con-ar']/div/div/div/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/s?wd=%E5%AB%A6%E5%A8%A5%E4%BA%94%E5%8F%B7%E5%AE%8C%E6%88%90%E6%A0%B7%E5%93%81%E5%9C%A8%E8%BD%A8%E8%BD%AC%E7%A7%BB&rsv_idx=2&tn=baiduhome_pg&usm=2&ie=utf-8&rsv_cq=%E6%B5%8B%E8%AF%95%E5%95%A6&rsv_dl=0_right_fyb_pchot_20811_01&rsf=4f82d829e8c7316774fe84e87d38c26c_1_15_1&rqid=bc953d3200003445')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5386",
+      "windowTimeout": 2000
+    }, {
+      "id": "227c38e4-be3b-400b-8560-e55f12c6e31e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5386}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9b1a173-3d50-42aa-871b-86f9036a8956",
+      "comment": "",
+      "command": "click",
+      "target": "id=kw",
+      "targets": [
+        ["id=kw", "id"],
+        ["name=wd", "name"],
+        ["css=#kw", "css:finder"],
+        ["xpath=//input[@id='kw']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74408a0d-486e-463c-af0b-54b0d65806a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_form_wrapper",
+      "targets": [
+        ["css=.s_form_wrapper", "css:finder"],
+        ["xpath=//div[@id='head']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be791b0f-47b3-4dfa-b615-e9f1f237415b",
+      "comment": "",
+      "command": "type",
+      "target": "id=kw",
+      "targets": [
+        ["id=kw", "id"],
+        ["name=wd", "name"],
+        ["css=#kw", "css:finder"],
+        ["xpath=//input[@id='kw']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "不知道"
+    }, {
+      "id": "980d7ec5-8677-4a54-ac6f-24c44fa82380",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=kw",
+      "targets": [
+        ["id=kw", "id"],
+        ["name=wd", "name"],
+        ["css=#kw", "css:finder"],
+        ["xpath=//input[@id='kw']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "9915d705-abe4-4c20-bcae-d15908f96934",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=不知道在线试听_高音质歌曲_网易云音乐",
+      "targets": [
+        ["linkText=不知道在线试听_高音质歌曲_网易云音乐", "linkText"],
+        ["xpath=//div[@id='3']/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.baidu.com/link?url=Uww1KH1MwDfgXOH2cNGTHiRTlKS8KUKdYrn4TvKGaIkzMuN4oHqP8cdIUZKwBzOgGQwPVGSpvIFN9PWaLEXDKQDRLxMyRxWaD5NG8h-kvn5hIGQKspzFDK5kQB8dx6L4&wd=&eqid=f146008a0002da3a000000065fcc5213')]", "xpath:href"],
+        ["xpath=//div[3]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'不知道在线试听_高音质歌曲_网易云音乐')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9541",
+      "windowTimeout": 2000
+    }, {
+      "id": "aca6eb3a-e4fd-4c75-ae19-38ace6a7a305",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9541}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eaa89ccc-7fdc-4e60-a82a-576f18ce5ba1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32681313-1032-4f0d-9303-0562469e9b28",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5386}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf8d7063-9ca6-4088-838f-026414703888",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win315}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbe4dafb-9fef-4aff-8265-e79ee372219f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd7c6d53-4dbe-4a48-a6df-d287bbec435e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5386}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cc50183-db34-4b5f-98ce-fe63664e193a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "021fdb70-b5d6-4e5f-bbea-c594083e0309",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c57ff019-2f60-4ab2-b039-8d8b99f54ab1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "264763de-55e9-4fd1-8bf5-5c82a541894d",
+    "name": "baidu_test_2",
+    "commands": [{
+      "id": "7354e8d4-2e94-4fb5-a464-764263cfcfbd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24b01b7e-6a7c-4124-9319-d887088bc96d",
+      "comment": "",
+      "command": "type",
+      "target": "id=kw",
+      "targets": [
+        ["id=kw", "id"],
+        ["name=wd", "name"],
+        ["css=#kw", "css:finder"],
+        ["xpath=//input[@id='kw']", "xpath:attributes"],
+        ["xpath=//span[@id='s_kw_wrap']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "da7130cf-956f-4b3f-841e-0264ea6f0f13",
+      "comment": "",
+      "command": "click",
+      "target": "id=su",
+      "targets": [
+        ["id=su", "id"],
+        ["css=#su", "css:finder"],
+        ["xpath=//input[@id='su']", "xpath:attributes"],
+        ["xpath=//span[@id='s_btn_wr']/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed28f4fe-44e9-44eb-89ab-e0d8c93c3695",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41004d28-3b47-4e5d-b76e-3a1683efd075",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6) > .nav",
+      "targets": [
+        ["css=p:nth-child(6) > .nav", "css:finder"],
+        ["xpath=//a[@href='http://lab.crossincode.com']", "xpath:href"],
+        ["xpath=//p[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dba17362-8145-4e6d-83ff-751fe93a9351",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggle",
+      "targets": [
+        ["css=.navbar-toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b761f4b-6cd9-4778-a70a-842ea0c48215",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=码上行动",
+      "targets": [
+        ["linkText=码上行动", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'码上行动')]", "xpath:link"],
+        ["xpath=//div[@id='ul_tags']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//crossincode.com/school/course/1/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'码上行动')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win327",
+      "windowTimeout": 2000
+    }, {
+      "id": "74237279-60aa-469e-89ff-be4af594dce1",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1949c6d0-6ebd-4d93-b606-5e7b19224380",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win327}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f4d22d1-bb8b-4d4c-8a4d-6fc60aaba844",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggle",
+      "targets": [
+        ["css=.navbar-toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Toggle navigation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e8cade1-f747-4299-a576-a2b569064df0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=编程实例",
+      "targets": [
+        ["linkText=编程实例", "linkText"],
+        ["css=.nav > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'编程实例')]", "xpath:link"],
+        ["xpath=//div[@id='navbar']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/oj/practice_list/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'编程实例')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbf7bc82-f3be-4676-828b-e838eeea0533",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=71. 打包为可执行文件",
+      "targets": [
+        ["linkText=71. 打包为可执行文件", "linkText"],
+        ["css=.list-group-item:nth-child(71)", "css:finder"],
+        ["xpath=//a[contains(text(),'71. 打包为可执行文件')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/oj/practice/98/')]", "xpath:href"],
+        ["xpath=//a[71]", "xpath:position"],
+        ["xpath=//a[contains(.,'71. 打包为可执行文件')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ce0e5ac-a34e-4f2f-bf2c-546c14361801",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=登录",
+      "targets": [
+        ["linkText=登录", "linkText"],
+        ["css=.ui-btn-a", "css:finder"],
+        ["xpath=//a[contains(text(),'登录')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/checkin/login/?next=/oj/practice_list/')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'登录')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5474b393-a818-4061-9cb8-b4c425770734",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "anne"
+    }, {
+      "id": "1e0c5fb5-818a-4b31-a862-362bc611ec44",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//p[2]/div/input", "xpath:position"]
+      ],
+      "value": "BMGW5425@yt"
+    }, {
+      "id": "e8348cc6-3f56-42e8-a43a-999cb3a9752a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-btn > input",
+      "targets": [
+        ["css=.ui-btn > input", "css:finder"],
+        ["xpath=//input[@value='登录']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f9ee153-c429-4097-8e6d-eb871be171bd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=71. 打包为可执行文件",
+      "targets": [
+        ["linkText=71. 打包为可执行文件", "linkText"],
+        ["css=.list-group-item:nth-child(71)", "css:finder"],
+        ["xpath=//a[contains(text(),'71. 打包为可执行文件')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/oj/practice/98/')]", "xpath:href"],
+        ["xpath=//a[71]", "xpath:position"],
+        ["xpath=//a[contains(.,'71. 打包为可执行文件')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30a86905-d688-4ca8-b4fa-12cc5a59157b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='确认申请']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56bfe2c1-cf8b-4c66-93ae-b57bc1fab7a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5) > .nav",
+      "targets": [
+        ["css=p:nth-child(5) > .nav", "css:finder"],
+        ["xpath=//a[contains(@href, '//res.crossincode.com/wechat/index.html')]", "xpath:href"],
+        ["xpath=//p[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bc8feb6-4931-4175-91f0-3db478b79d60",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=习题集",
+      "targets": [
+        ["linkText=习题集", "linkText"],
+        ["css=li:nth-child(9) > .ui-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'习题集')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'exercise.html')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'习题集')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3ebb672-0cd2-4a5a-9e56-5ccd0b3b6792",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=习题13：查询热映电影",
+      "targets": [
+        ["linkText=习题13：查询热映电影", "linkText"],
+        ["css=.ui-page-active li:nth-child(20) > .ui-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'习题13：查询热映电影')]", "xpath:link"],
+        ["xpath=//a[@href='http://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5MDEyMDk4Mw==&appmsgid=10000328&itemidx=1&sign=4275db1378668b1ea9165c4aa87171b5']", "xpath:href"],
+        ["xpath=//div[3]/ul/li[20]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'习题13：查询热映电影')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f61ce904-e27e-4d6b-a7f0-4a363cb80738",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#cls_btn > img",
+      "targets": [
+        ["css=#cls_btn > img", "css:finder"],
+        ["xpath=//img[@onclick='close_main_pd();']", "xpath:attributes"],
+        ["xpath=//div[@id='cls_btn']/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae9d80c3-5d33-4b1e-a02e-2762581cbb0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.headContent",
+      "targets": [
+        ["css=.headContent", "css:finder"],
+        ["xpath=//div[@id='body']/div[5]/div/div/div/div/div/div/form/div/div/p", "xpath:idRelative"],
+        ["xpath=//form/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'基 金')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0393c039-c5d8-4854-8a91-9c4b6f4287cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.headContent",
+      "targets": [
+        ["css=.headContent", "css:finder"],
+        ["xpath=//div[@id='body']/div[5]/div/div/div/div/div/div/form/div/div/p", "xpath:idRelative"],
+        ["xpath=//form/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'基 金')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "223c3c16-e6e9-41b8-ae42-250b9546994c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.headContent",
+      "targets": [
+        ["css=.headContent", "css:finder"],
+        ["xpath=//div[@id='body']/div[5]/div/div/div/div/div/div/form/div/div/p", "xpath:idRelative"],
+        ["xpath=//form/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'基 金')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7c8f122-d53b-408b-b42e-bee7ddc3d6e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover",
+      "targets": [
+        ["css=.hover", "css:finder"],
+        ["xpath=//div[@id='body']/div[5]/div/div/div/div/div/div/form/div/div[2]/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a004340-d86e-45ad-a549-86232134184c",
+      "comment": "",
+      "command": "click",
+      "target": "id=compareTargetSel",
+      "targets": [
+        ["id=compareTargetSel", "id"],
+        ["name=compareTargetSel", "name"],
+        ["css=#compareTargetSel", "css:finder"],
+        ["xpath=//select[@id='compareTargetSel']", "xpath:attributes"],
+        ["xpath=//div[@id='grandTotal']/div[2]/ul/li/div[3]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "529802d1-a697-4810-899d-06a3b974849c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0daa676-f2ad-4a94-a03e-8d757bb180ae",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6981874f-b983-4d98-a31c-353a5fbaa461",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5d9ca046-94ec-4c7a-a2f4-0b6115bcaa5c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8d57dac1-49c2-4b4e-ae38-5e868a5baf61"]
+  }],
+  "urls": ["https://www.baidu.com/"],
+  "plugins": []
+}
