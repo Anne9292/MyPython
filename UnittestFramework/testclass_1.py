@@ -40,6 +40,7 @@ class TestCalculator1(unittest.TestCase):
     def teardown(self):
         pass
 
+
 if __name__ == '__main__':
     # unittest.main()方法会搜索该模块下所有test开头的测试用例方法，并自动执行他们，verbosity打印信息等级，越大越详细
     # unittest.main(verbosity=1)

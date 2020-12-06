@@ -18,4 +18,6 @@ if __name__ == '__main__':
     suite = unittest.TestSuite([suite2, suite1])
 
     # 执行测试套件
-    unittest.TextTestRunner(verbosity=2).run(suite)
+    # unittest.TextTestRunner(verbosity=2).run(suite)
+    with open('UnittestTxtReport.txt', 'a') as f:
+        unittest.TextTestRunner(stream=f, verbosity=2).run(suite)
