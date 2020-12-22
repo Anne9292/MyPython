@@ -11,8 +11,8 @@ def str_judge(a):
 
     count = 1
     while count <= length/2:
-        a = a.replace("{}","").replace("[]","").replace("()","")
-        print('a是：',a)
+        a = a.replace("{}", "").replace("[]", "").replace("()", "")
+        print('a是：', a)
         count += 1
 
     if len(a) > 0:
