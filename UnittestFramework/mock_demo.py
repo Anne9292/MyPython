@@ -23,4 +23,4 @@ send_url = mock.Mock(side_effect=[1, 3, 5])
 # print(response)
 assert send_url() == 1
 assert send_url() == 3
-assert send_url() == 5
+assert send_url() == 6
