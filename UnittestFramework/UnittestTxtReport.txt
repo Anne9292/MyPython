@@ -136,3 +136,81 @@ Test method divsion(a, b) ... skipped 'windowsϵͳ����ִ��'
 Ran 8 tests in 0.001s
 
 FAILED (skipped=3, unexpected successes=1)
+test_001_add (testclass_2.TestCalculator2)
+Test method add(a, b) ... skipped '不执行加法用例'
+test_002_minus (testclass_2.TestCalculator2)
+Test method minus(a, b) ... ok
+test_003_multi (testclass_2.TestCalculator2)
+Test method multi(a, b) ... skipped '不允许这个方法'
+test_004_divsion (testclass_2.TestCalculator2)
+Test method divsion(a, b) ... FAIL
+test_001_add (testclass_1.TestCalculator1)
+Test method add(a, b) ... FAIL
+test_002_minus (testclass_1.TestCalculator1)
+Test method minus(a, b) ... ok
+test_003_multi (testclass_1.TestCalculator1)
+Test method multi(a, b) ... ok
+test_004_divsion (testclass_1.TestCalculator1)
+Test method divsion(a, b) ... ok
+
+======================================================================
+FAIL: test_004_divsion (testclass_2.TestCalculator2)
+Test method divsion(a, b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\PycharmProjects\MyPython\UnittestFramework\testclass_2.py", line 37, in test_004_divsion
+    self.assertEqual(self.result.divsion(), 3, "计算错误")
+AssertionError: 2.0 != 3 : 计算错误
+
+======================================================================
+FAIL: test_001_add (testclass_1.TestCalculator1)
+Test method add(a, b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\PycharmProjects\MyPython\UnittestFramework\testclass_1.py", line 25, in test_001_add
+    self.assertEqual(self.result.add(), 16, "计算错误！")
+AssertionError: 15 != 16 : 计算错误！
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.016s
+
+FAILED (failures=2, skipped=2)
+test_001_add (testclass_1.TestCalculator1)
+Test method add(a, b) ... FAIL
+test_002_minus (testclass_1.TestCalculator1)
+Test method minus(a, b) ... ok
+test_003_multi (testclass_1.TestCalculator1)
+Test method multi(a, b) ... ok
+test_004_divsion (testclass_1.TestCalculator1)
+Test method divsion(a, b) ... ok
+test_001_add (testclass_2.TestCalculator2)
+Test method add(a, b) ... skipped '不执行加法用例'
+test_002_minus (testclass_2.TestCalculator2)
+Test method minus(a, b) ... ok
+test_003_multi (testclass_2.TestCalculator2)
+Test method multi(a, b) ... skipped '不允许这个方法'
+test_004_divsion (testclass_2.TestCalculator2)
+Test method divsion(a, b) ... FAIL
+
+======================================================================
+FAIL: test_001_add (testclass_1.TestCalculator1)
+Test method add(a, b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\PycharmProjects\MyPython\UnittestFramework\testclass_1.py", line 25, in test_001_add
+    self.assertEqual(self.result.add(), 16, "计算错误！")
+AssertionError: 15 != 16 : 计算错误！
+
+======================================================================
+FAIL: test_004_divsion (testclass_2.TestCalculator2)
+Test method divsion(a, b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\PycharmProjects\MyPython\UnittestFramework\testclass_2.py", line 37, in test_004_divsion
+    self.assertEqual(self.result.divsion(), 3, "计算错误")
+AssertionError: 2.0 != 3 : 计算错误
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.003s
+
+FAILED (failures=2, skipped=2)

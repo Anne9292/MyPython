@@ -63,7 +63,7 @@ class Controller(object):
 
     # 数据的存储
     def save_data_to_csv(self):
-        csvfile = open('totalTime5.csv', 'w', newline='')
+        csvfile = open('totalTime5.csv', 'w', newline='')  # newline通用换行符
         writer = csv.writer(csvfile)  # 创建初始化写入对象
         writer.writerows(self.all_data)  # 多行写入
         csvfile.close()
