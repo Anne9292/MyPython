@@ -1,5 +1,5 @@
-#!/usr/bin/env python
-#-*- coding:utf-8 -*-
+# !/usr/bin/env python
+# -*- coding:utf-8 -*-
 
 import socket
 
@@ -10,7 +10,6 @@ def test_webserver(HOST, PORT):
 	# listen_socket绑定与监听
 	listen_socket.bind((HOST, PORT))
 	listen_socket.listen(100)
-
 
 	print('The server is running on port %d' % PORT)
 	print('The url is http://localhost:%d' % PORT)
