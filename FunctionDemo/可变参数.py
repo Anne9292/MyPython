@@ -4,8 +4,9 @@
 
 # 可变参数
 def fun_a(*args, **kwargs):
-    print("a={0}, b={1}".format(arg, kwargs))
-    print(type(arg), type(kwargs))
+    print("a={0}, b={1}".format(args, kwargs))
+    print(type(args), type(kwargs))
+
 
 if __name__ == '__main__':
     fun_a(10)

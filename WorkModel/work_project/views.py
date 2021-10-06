@@ -8,6 +8,8 @@
 __author__ = 'anne yang'
 
 import requests
+
+
 def search_api_name(request):
     # 自定义接口
     url = 'http://192.168.4.215:21802/vmen/order/buy'
@@ -36,4 +38,3 @@ def search_api_name(request):
                 return r.json({'Stauts_code': '200'})
         else:
             return r.json(())
-

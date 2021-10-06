@@ -14,13 +14,16 @@ class TestClass(object):
         self._func()
         print('class decorator ending...')
 
-@TestClass   # 类装饰器，会优先执行所有@TestClass的__init__()魔法函数，然后再调用__call__()
+
+@TestClass  # 类装饰器，会优先执行所有@TestClass的__init__()魔法函数，然后再调用__call__()
 def func():
     print('func_1 running...')
+
 
 @TestClass
 def func_2():
     print('func_2 running...')
+
 
 if __name__ == '__main__':
     func()

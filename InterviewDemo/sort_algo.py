@@ -5,18 +5,18 @@ def bubble_sort(arr):
     时间复杂度为O(n^2)'''
 
     for i in range(1, len(arr)):
-        for n in range(len(arr)-i):
-            if arr[n] > arr[n+1]:
-                arr[n], arr[n+1] = arr[n+1], arr[n]
+        for n in range(len(arr) - i):
+            if arr[n] > arr[n + 1]:
+                arr[n], arr[n + 1] = arr[n + 1], arr[n]
     print('冒泡排序结果是：', arr)
 
 
 def selection_sort(arr):
     '''在未排序序列中找最小元素，放在排序序列起始位置；再从剩余未排序序列中找最小元素，放在已排序序列末尾
     时间复杂度为O(n^2)'''
-    for i in range(len(arr)-1):
+    for i in range(len(arr) - 1):
         minIndex = i  # 记录最小数的索引
-        for j in range(i+1, len(arr)):   # 将未排序序列中的第一个值与其他值进行比较，找到最小值，并交换
+        for j in range(i + 1, len(arr)):  # 将未排序序列中的第一个值与其他值进行比较，找到最小值，并交换
             if arr[j] < arr[minIndex]:
                 minIndex = j
 
@@ -31,11 +31,11 @@ def insertion_sort(arr):
     时间复杂度为O(n^2)'''
     for i in range(1, len(arr)):
         value = arr[i]  # 待插入的数据
-        j = i - 1   # 有序序列最后一位
+        j = i - 1  # 有序序列最后一位
         while j >= 0 and arr[j] > value:
-            arr[j+1] = arr[j]   # 若有序序列元素比待插入元素大，将有序序列元素右移
+            arr[j + 1] = arr[j]  # 若有序序列元素比待插入元素大，将有序序列元素右移
             j -= 1
-        arr[j+1] = value
+        arr[j + 1] = value
     print('插入排序结果是：', arr)
 
 
@@ -45,12 +45,13 @@ def quick_sort(arr, left=None, right=None):
     3. 递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序。
     时间复杂度为O(nlogn)'''
     left = 0 if not isinstance(left, (int, float)) else left
-    right = len(arr)-1 if not isinstance(right, (int, float)) else right
+    right = len(arr) - 1 if not isinstance(right, (int, float)) else right
     if left < right:
         partitionIndex = partition(arr, left, right)
-        quick_sort(arr, left, partitionIndex-1)
-        quick_sort(arr, partitionIndex+1, right)
+        quick_sort(arr, left, partitionIndex - 1)
+        quick_sort(arr, partitionIndex + 1, right)
         print('快速排序结果是：', arr)
+
 
 def partition(arr, left, right):
     pivot = left
@@ -61,8 +62,9 @@ def partition(arr, left, right):
             swap(arr, i, index)
             index += 1
         i += 1
-    swap(arr, pivot, index-1)
+    swap(arr, pivot, index - 1)
     return index - 1
+
 
 def swap(arr, i, j):
     arr[i], arr[j] = arr[j], arr[i]
@@ -74,6 +76,3 @@ if __name__ == '__main__':
     # selection_sort(arr)
     # insertion_sort(arr)
     quick_sort(arr)
-
-
-

@@ -7,12 +7,14 @@ def str_test():
         print(char, end='')
     print()
 
+
 # 打印直角三角形
 def triangle_test():
     for i in range(0, 3):
-        for j in range(0, i+1):
+        for j in range(0, i + 1):
             print('*', end='')
         print()
+
 
 # 比大小
 def compare_test(num1, num2):
@@ -25,6 +27,7 @@ def compare_test(num1, num2):
     else:
         print('bingo!')
         return True
+
 
 if __name__ == '__main__':
     # str_test()

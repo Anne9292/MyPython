@@ -3,7 +3,7 @@
 
 
 # class MyClass(object):  # 新式类
-class MyClass:            # 经典类
+class MyClass:  # 经典类
     """一个简单的类实例"""
     i = 12345
 
@@ -12,7 +12,6 @@ class MyClass:            # 经典类
 
 
 if __name__ == '__main__':
-
     # 实例化类
     x = MyClass()
     # 访问类的属性和方法

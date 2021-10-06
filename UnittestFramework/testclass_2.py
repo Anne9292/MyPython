@@ -6,13 +6,14 @@
 
 import sys
 import unittest
+
 from calculator import Calculator
 
 
 class TestCalculator2(unittest.TestCase):
 
     def setUp(self):
-        self.result = Calculator(10, 5)   # 类实例化
+        self.result = Calculator(10, 5)  # 类实例化
 
     @unittest.skip('不执行加法用例')
     def test_001_add(self):

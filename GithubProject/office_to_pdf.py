@@ -2,18 +2,20 @@
 # -*- coding:utf-8 -*-
 # author: anne.yang
 
-from win32com.client import gencache, Dispatch, constants
-import pythoncom
 import os
+
+import pythoncom
+from win32com.client import gencache, Dispatch, constants
 
 
 # 文件转换逻辑
 class PDFConverter:
     """office文件转换为PDF"""
+
     def __init__(self, pathname):
         self._handle_postfix = ['doc', 'docx', 'ppt', 'pptx', 'xls', 'xlsx']  # 支持转换的文件类型
-        self._filename_list = list()   # 列出文件
-        self._export_folder = os.path.join(os.path.abspath('E:\\test\\'), 'PDF\\')   # 将路径进行拼接
+        self._filename_list = list()  # 列出文件
+        self._export_folder = os.path.join(os.path.abspath('E:\\test\\'), 'PDF\\')  # 将路径进行拼接
         print('===========导出路径是：', self._export_folder)
         if not os.path.exists(self._export_folder):
             os.mkdir(self._export_folder)
@@ -24,7 +26,7 @@ class PDFConverter:
         full_pathname = os.path.abspath(pathname)  # 返回绝对路径
         print('===========文件路径是：', full_pathname)
         if os.path.isfile(full_pathname):  # 判断是否为文件
-            if self._is_legal_postfix(full_pathname):   # 判断文件后缀
+            if self._is_legal_postfix(full_pathname):  # 判断文件后缀
                 self._filename_list.append(full_pathname)
             else:
                 raise TypeError('文件{}后缀名不合法！仅支持如下文件类型：{}'.format(pathname, '、'.join(self._handle_postfix)))
@@ -32,7 +34,7 @@ class PDFConverter:
             for root, dirs, files in os.walk(full_pathname):  # os.walk()通过在目录树中游走输出在目录中的文件名，向上或者向下
                 print('root={},\ndirs={},\nfiles={}\n'.format(root, dirs, files))
                 for name in files:
-                    filename = os.path.join(root, name)   # 将目录和文件名合成一个路径
+                    filename = os.path.join(root, name)  # 将目录和文件名合成一个路径
                     print('=============文件完整路径是：', filename)
                     if self._is_legal_postfix(filename):
                         self._filename_list.append(os.path.join(filename))
@@ -41,7 +43,8 @@ class PDFConverter:
 
     def _is_legal_postfix(self, filename):
         # basename()返回文件名
-        return filename.split('.')[-1].lower() in self._handle_postfix and not os.path.basename(filename).startswith('~')
+        return filename.split('.')[-1].lower() in self._handle_postfix and not os.path.basename(filename).startswith(
+            '~')
 
     def run_convert(self):
         print('需要转换的文件数是：', len(self._filename_list))
@@ -51,7 +54,7 @@ class PDFConverter:
             funcCall = getattr(self, postfix)
             # print(type(funcCall), funcCall)
             print('原文件：', filename)
-            funcCall(filename) # funcCall指向的是pdfConverter.doc()/xls()/ppt()等方法的地址，故可以直接调用
+            funcCall(filename)  # funcCall指向的是pdfConverter.doc()/xls()/ppt()等方法的地址，故可以直接调用
         print('转换完成！')
 
     # doc/docx转换为PDF
@@ -106,6 +109,7 @@ class PDFConverter:
     def xlsx(self, filename):
         self.xls(filename)
 
+
 if __name__ == '__main__':
     '''
     支持文件夹批量导入, 也支持单个文件的转换
@@ -113,4 +117,3 @@ if __name__ == '__main__':
     pathname = r"E:\test\test-2"
     pdfConverter = PDFConverter(pathname)
     pdfConverter.run_convert()
-

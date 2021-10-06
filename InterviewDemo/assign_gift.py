@@ -18,6 +18,7 @@ def assign_gifts(giftsIn):
             giftsIn[p] = myGift
     return giftsOut
 
+
 if __name__ == '__main__':
     gifts = {'anne': 'sugger', 'tony': 'apple', 'john': 'bear tony', 'william': 'book'}
     result = assign_gifts(gifts)

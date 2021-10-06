@@ -3,6 +3,7 @@
 
 import json
 
+
 def cmp(src_f1, dst_f2):
     for src_value, dst_value in zip(sorted(src_f1), sorted(dst_f2)):
         if str(src_f1[src_value]) != str(dst_f2[dst_value]):

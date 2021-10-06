@@ -19,6 +19,7 @@ class Node:
         self.val = val
         self.next = None
 
+
 # 链表类
 class LinkedList:
 
@@ -30,12 +31,12 @@ class LinkedList:
     # 在链表开头插入节点
     def begin_insert(self, newdata):
         newnode = Node(newdata)
-        if self.head is None:       # 判断是否是空链表
+        if self.head is None:  # 判断是否是空链表
             print('list is none!!!')
             self.head = newnode
             return
         newnode.next = self.head  # 将新节点next指向当前的头结点
-        self.head = newnode     # 头结点head指向新节点
+        self.head = newnode  # 头结点head指向新节点
 
     # 在链表末尾插入节点
     def end_insert(self, newdata):
@@ -68,7 +69,7 @@ class LinkedList:
             if cur is None:
                 raise Exception('list length less than index!')
             cur_idx += 1
-        if idx == 0:   # 当删除第一个节点
+        if idx == 0:  # 当删除第一个节点
             self.head = cur.next
             cur = cur.next
             return
@@ -88,6 +89,7 @@ class LinkedList:
             printnode = printnode.next
         return
 
+
 if __name__ == '__main__':
     list1 = LinkedList()
     list1.head = Node('Mon')
@@ -99,6 +101,6 @@ if __name__ == '__main__':
 
     list1.begin_insert('Sun')
     list1.end_insert('Fri')
-    list1.mid_insert(e2.next,'Thu')
+    list1.mid_insert(e2.next, 'Thu')
     list1.remove(1)
     list1.list_print()

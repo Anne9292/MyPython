@@ -4,8 +4,8 @@
 
 import os
 
-def get_dir_file(pathname):
 
+def get_dir_file(pathname):
     if not os.path.exists(pathname):
         print('sorry, have not this dir')
         os.mkdir(pathname)
@@ -28,6 +28,7 @@ def get_dir_file(pathname):
         print(os.path.splitext(pathname))
         print(os.path.basename(pathname))
         print(os.path.abspath(pathname))
+
 
 if __name__ == '__main__':
     get_dir_file(r'E:\test\test-1\test-2\冒烟测试不通过标准1.docx')

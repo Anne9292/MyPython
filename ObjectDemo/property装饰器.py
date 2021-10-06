@@ -31,6 +31,7 @@ class Student(object):
             raise ValueError('score must between 0~100！')
         self._score = value
 
+
 if __name__ == '__main__':
     # test_object = DataSet()
     # print(test_object.method_with_property)     # 加了@property后，可以用调用属性的形式调用方法，后面不需要加()

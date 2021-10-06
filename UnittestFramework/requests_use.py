@@ -5,10 +5,11 @@
 # filename: MyPython/requests_user
 
 
-import time
-import logging
-import requests
 import json
+import logging
+import time
+
+import requests
 from requests.auth import HTTPBasicAuth
 
 FORMAT = '%(asctime)s--%(levelname)s: %(message)s'

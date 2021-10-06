@@ -4,9 +4,6 @@
 # datetime: 2020-11-23 21:53
 # filename: PyCharm-dict_get
 
-import time
-import logging
-
 """
 获取嵌套列表字典中的key: 字典/列表/元组相互嵌套
 迭代当前dict的所有元素, 对元素挨个依次比较key与所需要的key, 如果相同就保存在输出的list中.
@@ -15,8 +12,8 @@ in_json: 字典
 key: 目标key
 """
 
-def get_dict_value_by_key(in_json, target_key, results=None):
 
+def get_dict_value_by_key(in_json, target_key, results=None):
     if results is None:
         results = []
     if isinstance(in_json, dict):  # 如果输入数据的格式为dict
@@ -29,6 +26,7 @@ def get_dict_value_by_key(in_json, target_key, results=None):
         for data in in_json:  # 循环当前列表
             get_dict_value_by_key(data, target_key, results=results)  # 回归列表的当前的元素
     return results
+
 
 # 搞不赢
 # def json_get(data, target_key):
@@ -67,7 +65,7 @@ if __name__ == '__main__':
                   "newGrades": {
                       "info": "新增数据",
                       "newChinese": 77
-                                }
+                  }
                   }
     res = get_dict_value_by_key(dict_test1, "info", [1, 2])
     print(res)

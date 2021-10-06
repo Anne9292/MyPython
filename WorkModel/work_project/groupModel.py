@@ -3,7 +3,9 @@
 
 """a test module"""
 __author__ = 'anne yang'
+
 import requests
+
 
 # group models
 class ApiResult(object):
@@ -20,12 +22,12 @@ class ApiResult(object):
     def test_cases(self):
         apiName = '/groupBuy/getQuickSaleGroupBuyList'
         params = {
-            "uid":"18057911",
-            "lang":"1",
-            "top_group_buy_id":"null",
-            "limit":"30",
-            "page":"1"
-            }
+            "uid": "18057911",
+            "lang": "1",
+            "top_group_buy_id": "null",
+            "limit": "30",
+            "page": "1"
+        }
 
     # 查询普通区拼团列表
     def get_common_group_list(self):
@@ -34,6 +36,3 @@ class ApiResult(object):
 
 if __name__ == '__main__':
     ApiResult.get_api_result()
-
-
-

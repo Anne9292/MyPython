@@ -63,17 +63,18 @@
 #
 # for x in [1,2,3]: print(x, end=' ')
 
-#去除首尾字符串
+# 去除首尾字符串
 def trim(s):
-    if len(s)==0:
+    if len(s) == 0:
         print(s)
-    elif s[0]=='':
+    elif s[0] == '':
         print(s[1:len(s)])
-    elif s[-1]=='':
-        print(s[:len(s)-1])
+    elif s[-1] == '':
+        print(s[:len(s) - 1])
     return s
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
     if trim('') == '':
         print('1')
     if trim(' hello ') == ' hello ':

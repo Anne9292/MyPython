@@ -25,4 +25,3 @@ class Calculator(object):
 
 # res = Calculator(10, 5)
 # res.add()
-

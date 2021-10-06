@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 # _*_ coding: utf-8 _*_
 
-'a test module'
+"""a test module"""
 __author__ = 'anne yang'
 
 import math
+
 
 def my_abs(x):
     # 方法1：
@@ -24,22 +25,24 @@ def my_abs(x):
     # else:
     #     return -x
 
+
 def quadratic(a, b, c):
     # 解一元二次方程ax^2 + bx + c = 0
     try:
-        arg1 = b*b - 4*a*c
+        arg1 = b * b - 4 * a * c
         if arg1 < 0:
             return '无实根!'
         elif arg1 == 0:
-            x = -b / (2*a)
+            x = -b / (2 * a)
             return x
         else:
-            x1 = (-b + math.sqrt(arg1)) / (2*a)
-            x2 = (-b - math.sqrt(arg1)) / (2*a)
+            x1 = (-b + math.sqrt(arg1)) / (2 * a)
+            x2 = (-b - math.sqrt(arg1)) / (2 * a)
             return x1, x2
 
     except TypeError as e:
         print('只能输入浮点数或整数！！' + str(e))
+
 
 if __name__ == '__main__':
     # print(my_abs(0))

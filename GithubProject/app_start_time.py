@@ -1,11 +1,13 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
-import os
 import csv
+import os
 import time
 
 '''测试app冷启动和热启动时间'''
+
+
 class App(object):
 
     def __init__(self):

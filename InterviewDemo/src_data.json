@@ -1,1 +1,16 @@
-{"name":"anne","age":20,"source":["math","chinese"],"grade":1,"pets":{"dog":"tangshao","age":[1, 2]}}
+{
+  "name": "anne",
+  "age": 20,
+  "source": [
+    "math",
+    "chinese"
+  ],
+  "grade": 1,
+  "pets": {
+    "dog": "tangshao",
+    "age": [
+      1,
+      2
+    ]
+  }
+}

@@ -1,8 +1,8 @@
 # -*- coding:utf-8 -*-
 
-from selenium import webdriver
 import time
 
+from selenium import webdriver
 
 n = 1
 # 驱动文件路径

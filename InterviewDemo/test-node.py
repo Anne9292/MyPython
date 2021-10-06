@@ -35,6 +35,7 @@ class LinkedList:
             print(printval.data)
             printval = printval.next
 
+
 if __name__ == '__main__':
     llist = LinkedList()
     llist.AtBegining("Mon")

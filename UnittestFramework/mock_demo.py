@@ -4,8 +4,9 @@
 # datetime: 2020-12-24 14:50
 # filename: MyPython/mock_demo
 
-import requests
 from unittest import mock
+
+import requests
 
 
 def send_url():

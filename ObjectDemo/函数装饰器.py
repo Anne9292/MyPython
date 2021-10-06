@@ -4,8 +4,8 @@
 # datetime: 2020-11-11 15:41
 # filename: MyPython-装饰器
 
-import time
 import logging
+import time
 from functools import wraps
 
 FORMAT = '%(asctime)s--%(levelname)s: %(message)s'
@@ -18,6 +18,7 @@ def use_logging2(func):
         logging.info('%s is running--------' % func.__name__)
         a = func()
         return a
+
     return wrapper
 
 

@@ -16,11 +16,10 @@ def test_webserver(HOST, PORT):
 
     while True:
         http_response = '''
-		HTTP/1.1 200 OK
-		Content-Type: text/html
-
-		Hello, my second python server-8002
-		'''
+            HTTP/1.1 200 OK
+            Content-Type: text/html
+    
+            Hello, my second python server-8002'''
         Client, Address = listen_socket.accept()
         Request = Client.recv(1024)
         Client.sendall(http_response.encode(encoding='utf-8'))

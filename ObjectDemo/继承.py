@@ -12,6 +12,7 @@ class Animals(object):
         category = 'roof'
         print('真的是动物呀', name, category)
 
+
 if __name__ == '__main__':
     dog = Animals('la', 'ee')
     dog.eat()

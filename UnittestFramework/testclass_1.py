@@ -5,6 +5,7 @@
 # filename: MyPython/testclass_1
 
 import unittest
+
 from calculator import Calculator
 
 
@@ -15,7 +16,7 @@ class TestCalculator1(unittest.TestCase):
     # 所有类中方法的入参是self，定义方法的变量也要"self.变量"
     def setUp(self):
         # print('TestCalculator1 test start...')
-        self.result = Calculator(10, 5)   # 类实例化
+        self.result = Calculator(10, 5)  # 类实例化
 
     # 定义测试用例，以"test_"开头命名的方法，方法的入参为self
     # 可使用unittest.TestCase类下面的各种断言方法对测试结果进行判断
