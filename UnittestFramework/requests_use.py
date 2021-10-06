@@ -11,56 +11,63 @@ import requests
 import json
 from requests.auth import HTTPBasicAuth
 
-
 FORMAT = '%(asctime)s--%(levelname)s: %(message)s'
 logging.basicConfig(format=FORMAT, level=logging.INFO)
+
 
 def decorator(func):
     def wrapper(*params):
         print('%s方法 is running...' % func.__name__)
         func(*params)
+
     return wrapper
+
 
 @decorator
 def get(host, url, args=None):
-    r = requests.get(host+url, params=args)
+    r = requests.get(host + url, params=args)
     if r.status_code == 200:
         logging.info(r.json())
     else:
         logging.info('接口返回错误')
 
+
 @decorator
 def get_header(host, url, header):
-    r = requests.get(host+url, headers=header)
+    r = requests.get(host + url, headers=header)
     logging.info(r.text)
+
 
 # 加代理
 @decorator
 def get_proxy(host, url, proxy):
-    r = requests.get(host+url, proxies=proxy)
+    r = requests.get(host + url, proxies=proxy)
     logging.info(r.text)
+
 
 # 加鉴权
 @decorator
 def get_auth(host, url):
-    r = requests.get(host+url, auth=HTTPBasicAuth('user', 'password'))
+    r = requests.get(host + url, auth=HTTPBasicAuth('user', 'password'))
     logging.info(r.text)
+
 
 @decorator
 def post_data(host, url, params):
     if isinstance(params, dict):
-        data = json.dumps(params)   # 字典转换成json字符串
-        r = requests.post(host+url, data=data)
+        data = json.dumps(params)  # 字典转换成json字符串
+        r = requests.post(host + url, data=data)
         logging.info(r.text)
     else:
-        r = requests.post(host+url, data=params)
+        r = requests.post(host + url, data=params)
         # logging.info(f'{params}不是字典')
         logging.info(r.text)
+
 
 @decorator
 def post_json(host, url, params):
     before = time.time()
-    r = requests.post(host+url, data=params, timeout=1)  # 自动转换成json字符串
+    r = requests.post(host + url, data=params, timeout=1)  # 自动转换成json字符串
     after = time.time()
     if r.status_code == 200:
         logging.info(r.text)
@@ -68,16 +75,19 @@ def post_json(host, url, params):
     else:
         r.raise_for_status()
 
+
 @decorator
 def put(host, url, data):
-    r = requests.put(host+url, data=data)
+    r = requests.put(host + url, data=data)
     logging.info(r.text)
     print(r.headers, r.cookies.get_dict())  # 获取headers和cookies
 
+
 @decorator
 def delete(host, url, data):
-    r = requests.delete(host+url, data=data)
+    r = requests.delete(host + url, data=data)
     logging.info(r.content)  # 返回二进制的内容，一般是图片、视频、音频等数据流
+
 
 def session():
     s = requests.Session()  # 跨请求保持某些参数

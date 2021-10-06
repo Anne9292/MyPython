@@ -22,7 +22,7 @@ class TestCalculator1(unittest.TestCase):
     # 可定义多个测试用例
     def test_001_add(self):
         """Test method add(a, b)"""
-        self.assertEqual(self.result.add(), 15, "计算错误！")
+        self.assertEqual(self.result.add(), 16, "计算错误！")
 
     def test_002_minus(self):
         """Test method minus(a, b)"""
@@ -42,8 +42,8 @@ class TestCalculator1(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    # unittest.main()方法会搜索该模块下所有test开头的测试用例方法，并自动执行他们，verbosity打印信息等级，越大越详细
-    # unittest.main(verbosity=1)
+    # unittest.main() # 方法会搜索该模块下所有test开头的测试用例方法，并自动执行他们，verbosity打印信息等级，越大越详细
+    # unittest.main(verbosity=2)
 
     # 构造测试集，类实例化
     suite = unittest.TestSuite()
@@ -55,7 +55,7 @@ if __name__ == '__main__':
     # suite.addTest(TestCalculator1('test_001_add'))
 
     # 第二种写法
-    tests = [TestCalculator1('test_001_add'), TestCalculator1('test_002_minus'), TestCalculator1('test_003_multi'), TestCalculator1('test_004_divsion')]
+    tests = [TestCalculator1('test_002_minus'), TestCalculator1('test_003_multi'), TestCalculator1('test_004_divsion')]
     suite.addTests(tests)
 
     # 执行测试集合

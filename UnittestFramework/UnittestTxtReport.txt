@@ -8,13 +8,13 @@ Test method multi(a, b) ... ok
 test_004_divsion (testclass_1.TestCalculator1)
 Test method divsion(a, b) ... ok
 test_001_add (testclass_2.TestCalculator2)
-Test method add(a, b) ... skipped '²»Ö´ĞĞ¼Ó·¨ÓÃÀı'
+Test method add(a, b) ... skipped '????§Ş??????'
 test_002_minus (testclass_2.TestCalculator2)
-Test method minus(a, b) ... skipped 'linuxÏµÍ³²Å¿ÉÖ´ĞĞ'
+Test method minus(a, b) ... skipped 'linux????????'
 test_003_multi (testclass_2.TestCalculator2)
 Test method multi(a, b) ... unexpected success
 test_004_divsion (testclass_2.TestCalculator2)
-Test method divsion(a, b) ... skipped 'windowsÏµÍ³²»¿ÉÖ´ĞĞ'
+Test method divsion(a, b) ... skipped 'windows?????????'
 
 ----------------------------------------------------------------------
 Ran 8 tests in 0.001s
@@ -22,13 +22,13 @@ Ran 8 tests in 0.001s
 FAILED (skipped=3, unexpected successes=1)
 =======
 test_001_add (testclass_2.TestCalculator2)
-Test method add(a, b) ... skipped 'ä¸æ‰§è¡ŒåŠ æ³•ç”¨ä¾‹'
+Test method add(a, b) ... skipped '²»Ö´ĞĞ¼Ó·¨ÓÃÀı'
 test_002_minus (testclass_2.TestCalculator2)
-Test method minus(a, b) ... skipped 'linuxç³»ç»Ÿæ‰å¯æ‰§è¡Œ'
+Test method minus(a, b) ... skipped 'linuxÏµÍ³²Å¿ÉÖ´ĞĞ'
 test_003_multi (testclass_2.TestCalculator2)
 Test method multi(a, b) ... unexpected success
 test_004_divsion (testclass_2.TestCalculator2)
-Test method divsion(a, b) ... skipped 'windowsç³»ç»Ÿä¸å¯æ‰§è¡Œ'
+Test method divsion(a, b) ... skipped 'windowsÏµÍ³²»¿ÉÖ´ĞĞ'
 >>>>>>> a1e3d05131bfba1bb5945afc0a1fa254055a00c1
 test_001_add (testclass_1.TestCalculator1)
 Test method add(a, b) ... ok
@@ -40,13 +40,13 @@ test_004_divsion (testclass_1.TestCalculator1)
 Test method divsion(a, b) ... ok
 <<<<<<< HEAD
 test_001_add (testclass_2.TestCalculator2)
-Test method add(a, b) ... skipped '²»Ö´ĞĞ¼Ó·¨ÓÃÀı'
+Test method add(a, b) ... skipped '????§Ş??????'
 test_002_minus (testclass_2.TestCalculator2)
-Test method minus(a, b) ... skipped 'linuxÏµÍ³²Å¿ÉÖ´ĞĞ'
+Test method minus(a, b) ... skipped 'linux????????'
 test_003_multi (testclass_2.TestCalculator2)
 Test method multi(a, b) ... unexpected success
 test_004_divsion (testclass_2.TestCalculator2)
-Test method divsion(a, b) ... skipped 'windowsÏµÍ³²»¿ÉÖ´ĞĞ'
+Test method divsion(a, b) ... skipped 'windows?????????'
 
 ----------------------------------------------------------------------
 Ran 8 tests in 0.001s
@@ -59,13 +59,13 @@ Ran 8 tests in 0.005s
 
 FAILED (skipped=3, unexpected successes=1)
 test_001_add (testclass_2.TestCalculator2)
-Test method add(a, b) ... skipped 'ä¸æ‰§è¡ŒåŠ æ³•ç”¨ä¾‹'
+Test method add(a, b) ... skipped '²»Ö´ĞĞ¼Ó·¨ÓÃÀı'
 test_002_minus (testclass_2.TestCalculator2)
-Test method minus(a, b) ... skipped 'linuxç³»ç»Ÿæ‰å¯æ‰§è¡Œ'
+Test method minus(a, b) ... skipped 'linuxÏµÍ³²Å¿ÉÖ´ĞĞ'
 test_003_multi (testclass_2.TestCalculator2)
 Test method multi(a, b) ... unexpected success
 test_004_divsion (testclass_2.TestCalculator2)
-Test method divsion(a, b) ... skipped 'windowsç³»ç»Ÿä¸å¯æ‰§è¡Œ'
+Test method divsion(a, b) ... skipped 'windowsÏµÍ³²»¿ÉÖ´ĞĞ'
 >>>>>>> a1e3d05131bfba1bb5945afc0a1fa254055a00c1
 test_001_add (testclass_1.TestCalculator1)
 Test method add(a, b) ... ok
@@ -77,13 +77,13 @@ test_004_divsion (testclass_1.TestCalculator1)
 Test method divsion(a, b) ... ok
 <<<<<<< HEAD
 test_001_add (testclass_2.TestCalculator2)
-Test method add(a, b) ... skipped '²»Ö´ĞĞ¼Ó·¨ÓÃÀı'
+Test method add(a, b) ... skipped '????§Ş??????'
 test_002_minus (testclass_2.TestCalculator2)
-Test method minus(a, b) ... skipped 'linuxÏµÍ³²Å¿ÉÖ´ĞĞ'
+Test method minus(a, b) ... skipped 'linux????????'
 test_003_multi (testclass_2.TestCalculator2)
 Test method multi(a, b) ... unexpected success
 test_004_divsion (testclass_2.TestCalculator2)
-Test method divsion(a, b) ... skipped 'windowsÏµÍ³²»¿ÉÖ´ĞĞ'
+Test method divsion(a, b) ... skipped 'windows?????????'
 
 ----------------------------------------------------------------------
 Ran 8 tests in 0.005s
@@ -94,3 +94,123 @@ Ran 8 tests in 0.001s
 >>>>>>> a1e3d05131bfba1bb5945afc0a1fa254055a00c1
 
 FAILED (skipped=3, unexpected successes=1)
+test_001_add (testclass_2.TestCalculator2)
+Test method add(a, b) ... skipped '²»Ö´ĞĞ¼Ó·¨ÓÃÀı'
+test_002_minus (testclass_2.TestCalculator2)
+Test method minus(a, b) ... skipped 'linuxÏµÍ³²Å¿ÉÖ´ĞĞ'
+test_003_multi (testclass_2.TestCalculator2)
+Test method multi(a, b) ... unexpected success
+test_004_divsion (testclass_2.TestCalculator2)
+Test method divsion(a, b) ... skipped 'windowsÏµÍ³²»¿ÉÖ´ĞĞ'
+test_001_add (testclass_1.TestCalculator1)
+Test method add(a, b) ... ok
+test_002_minus (testclass_1.TestCalculator1)
+Test method minus(a, b) ... ok
+test_003_multi (testclass_1.TestCalculator1)
+Test method multi(a, b) ... ok
+test_004_divsion (testclass_1.TestCalculator1)
+Test method divsion(a, b) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.011s
+
+FAILED (skipped=3, unexpected successes=1)
+test_001_add (testclass_1.TestCalculator1)
+Test method add(a, b) ... ok
+test_002_minus (testclass_1.TestCalculator1)
+Test method minus(a, b) ... ok
+test_003_multi (testclass_1.TestCalculator1)
+Test method multi(a, b) ... ok
+test_004_divsion (testclass_1.TestCalculator1)
+Test method divsion(a, b) ... ok
+test_001_add (testclass_2.TestCalculator2)
+Test method add(a, b) ... skipped '²»Ö´ĞĞ¼Ó·¨ÓÃÀı'
+test_002_minus (testclass_2.TestCalculator2)
+Test method minus(a, b) ... skipped 'linuxÏµÍ³²Å¿ÉÖ´ĞĞ'
+test_003_multi (testclass_2.TestCalculator2)
+Test method multi(a, b) ... unexpected success
+test_004_divsion (testclass_2.TestCalculator2)
+Test method divsion(a, b) ... skipped 'windowsÏµÍ³²»¿ÉÖ´ĞĞ'
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+FAILED (skipped=3, unexpected successes=1)
+test_001_add (testclass_2.TestCalculator2)
+Test method add(a, b) ... skipped 'ä¸æ‰§è¡ŒåŠ æ³•ç”¨ä¾‹'
+test_002_minus (testclass_2.TestCalculator2)
+Test method minus(a, b) ... ok
+test_003_multi (testclass_2.TestCalculator2)
+Test method multi(a, b) ... skipped 'ä¸å…è®¸è¿™ä¸ªæ–¹æ³•'
+test_004_divsion (testclass_2.TestCalculator2)
+Test method divsion(a, b) ... FAIL
+test_001_add (testclass_1.TestCalculator1)
+Test method add(a, b) ... FAIL
+test_002_minus (testclass_1.TestCalculator1)
+Test method minus(a, b) ... ok
+test_003_multi (testclass_1.TestCalculator1)
+Test method multi(a, b) ... ok
+test_004_divsion (testclass_1.TestCalculator1)
+Test method divsion(a, b) ... ok
+
+======================================================================
+FAIL: test_004_divsion (testclass_2.TestCalculator2)
+Test method divsion(a, b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\PycharmProjects\MyPython\UnittestFramework\testclass_2.py", line 37, in test_004_divsion
+    self.assertEqual(self.result.divsion(), 3, "è®¡ç®—é”™è¯¯")
+AssertionError: 2.0 != 3 : è®¡ç®—é”™è¯¯
+
+======================================================================
+FAIL: test_001_add (testclass_1.TestCalculator1)
+Test method add(a, b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\PycharmProjects\MyPython\UnittestFramework\testclass_1.py", line 25, in test_001_add
+    self.assertEqual(self.result.add(), 16, "è®¡ç®—é”™è¯¯ï¼")
+AssertionError: 15 != 16 : è®¡ç®—é”™è¯¯ï¼
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.016s
+
+FAILED (failures=2, skipped=2)
+test_001_add (testclass_1.TestCalculator1)
+Test method add(a, b) ... FAIL
+test_002_minus (testclass_1.TestCalculator1)
+Test method minus(a, b) ... ok
+test_003_multi (testclass_1.TestCalculator1)
+Test method multi(a, b) ... ok
+test_004_divsion (testclass_1.TestCalculator1)
+Test method divsion(a, b) ... ok
+test_001_add (testclass_2.TestCalculator2)
+Test method add(a, b) ... skipped 'ä¸æ‰§è¡ŒåŠ æ³•ç”¨ä¾‹'
+test_002_minus (testclass_2.TestCalculator2)
+Test method minus(a, b) ... ok
+test_003_multi (testclass_2.TestCalculator2)
+Test method multi(a, b) ... skipped 'ä¸å…è®¸è¿™ä¸ªæ–¹æ³•'
+test_004_divsion (testclass_2.TestCalculator2)
+Test method divsion(a, b) ... FAIL
+
+======================================================================
+FAIL: test_001_add (testclass_1.TestCalculator1)
+Test method add(a, b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\PycharmProjects\MyPython\UnittestFramework\testclass_1.py", line 25, in test_001_add
+    self.assertEqual(self.result.add(), 16, "è®¡ç®—é”™è¯¯ï¼")
+AssertionError: 15 != 16 : è®¡ç®—é”™è¯¯ï¼
+
+======================================================================
+FAIL: test_004_divsion (testclass_2.TestCalculator2)
+Test method divsion(a, b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\PycharmProjects\MyPython\UnittestFramework\testclass_2.py", line 37, in test_004_divsion
+    self.assertEqual(self.result.divsion(), 3, "è®¡ç®—é”™è¯¯")
+AssertionError: 2.0 != 3 : è®¡ç®—é”™è¯¯
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.003s
+
+FAILED (failures=2, skipped=2)
