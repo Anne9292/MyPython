@@ -9,6 +9,9 @@
           <option value="E302" />
           <option value="E501" />
           <option value="W292" />
+          <option value="E701" />
+          <option value="E101" />
+          <option value="W191" />
         </list>
       </option>
     </inspection_tool>
@@ -34,6 +37,11 @@
           <option value="selenium.webdriver.chrome.webdriver.WebDriver.*" />
         </list>
       </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
     </inspection_tool>
   </profile>
 </component>

@@ -7,7 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/UnittestFramework" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.9 (MyPython)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.8 (MyPython)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="untitled" />
     <orderEntry type="module" module-name="http_api" />

@@ -15,8 +15,8 @@
 class Node:
 
     # 构造一个节点
-    def __init__(self, dataval=None):
-        self.data = dataval
+    def __init__(self, val=None):
+        self.val = val
         self.next = None
 
 # 链表类
@@ -35,7 +35,7 @@ class LinkedList:
             self.head = newnode
             return
         newnode.next = self.head  # 将新节点next指向当前的头结点
-        self.head = newnode     # 头结点next指向新节点
+        self.head = newnode     # 头结点head指向新节点
 
     # 在链表末尾插入节点
     def end_insert(self, newdata):
@@ -84,7 +84,7 @@ class LinkedList:
     def list_print(self):
         printnode = self.head
         while printnode is not None:
-            print(printnode.data)
+            print(printnode.val)
             printnode = printnode.next
         return
 
