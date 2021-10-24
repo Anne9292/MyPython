@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 '''
-	anne practice request model
+	anne practice binary search
 '''
 __author__ = 'anne yang'
 

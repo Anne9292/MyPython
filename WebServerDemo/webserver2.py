@@ -4,7 +4,7 @@
 import socket
 
 
-def test_webserver(HOST, PORT):
+def webserver2(HOST, PORT):
     # 新的socket
     listen_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # listen_socket绑定与监听
@@ -27,5 +27,5 @@ def test_webserver(HOST, PORT):
 
 
 if __name__ == '__main__':
-    test_webserver('localhost', 8002)
+    webserver2('localhost', 8002)
     # test_webserver('192.168.146.135', 8002)
