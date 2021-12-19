@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # author: anne-home
 # datetime: 2021-02-21 22:03
-# filename: MyPython/assign_gift
+# filename: PythonProjectDemo/assign_gift
 
 def assign_gifts(giftsIn):
     giftsOut = {}

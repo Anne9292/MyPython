@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # author: anne
 # datetime: 2020-11-13 10:32
-# filename: MyPython-property装饰器
+# filename: PythonProjectDemo-property装饰器
 
 
 # @property装饰：只读属性，将类中的方法转换成属性

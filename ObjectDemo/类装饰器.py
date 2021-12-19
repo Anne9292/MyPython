@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # author: anne
 # datetime: 2020-11-12 19:18
-# filename: MyPython-类装饰器
+# filename: PythonProjectDemo-类装饰器
 
 class TestClass(object):
     def __init__(self, func):

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # author: anne
 # datetime: 2020-11-16 11:15
-# filename: MyPython-九九乘法表
+# filename: PythonProjectDemo-九九乘法表
 
 def calculate():
     for i in range(1, 10):

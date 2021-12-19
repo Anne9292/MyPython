@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # author: 豌豆
 # datetime: 2021/10/6 21:37
-# filename: MyPython/student_system
+# filename: PythonProjectDemo/student_system
 
 import os
 import re
@@ -33,7 +33,7 @@ def menu():
 def save(student):
     try:
         student_txt = open(filename, 'a')  # 追加模式打开
-    except Exception as e:
+    except:
         student_txt = open(filename, 'w')  # 文件不存在，创建新文件
     for info in student:
         student_txt.write(str(info) + '\n')
@@ -60,7 +60,7 @@ def insert():
             english = input("请输入英语成绩：")
             python = input("请输入python成绩：")
             math = input("请输入数学成绩：")
-        except BaseException:
+        except:
             print("输入无效，不是整形数值......重新录入信息")
             continue
         student = {
@@ -87,7 +87,7 @@ def delete():
     mark = True
     while mark:
         id = input("请输入要删除的学生ID：")
-        if id is not "":
+        if id != "":
             if os.path.exists(filename):
                 with open(filename, "r") as r_file:
                     student_old = r_file.readlines()
@@ -96,7 +96,6 @@ def delete():
             ifdel = False
             if student_old:
                 with open(filename, "w") as w_file:
-                    d = {}
                     for line in student_old:
                         d = dict(eval(line))
                         if d['id'] != id:

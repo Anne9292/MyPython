@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # author: 豌豆
 # datetime: 2021/10/24 15:36
-# filename: MyPython/make_head_picture
+# filename: PythonProjectDemo/make_head_picture
 
 import os
 from PIL import Image
