@@ -9,8 +9,12 @@
 import os
 import sys
 import time
+import requests
+from bs4 import BeautifulSoup
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtCore import QDate
+from PyQt5.QtWidgets import QMessageBox, QFileDialog
 
 
 class Ui_MainWindow:
@@ -119,7 +123,8 @@ class Ui_MainWindow:
         # 设置自动填充容器
         self.tableWidget.horizontalHeader().setStretchLastSection(True)
         # 显示垂直滚动条
-        self.tableWidget.setVerticalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOn)
+        self.tableWidget.setVerticalScrollBarPolicy(
+            QtCore.Qt.ScrollBarAlwaysOn)
         self.tabWidget.addTab(self.tab, "")
         # 设置按名称显示tab
         self.tab_2 = QtWidgets.QWidget()
@@ -147,7 +152,7 @@ class Ui_MainWindow:
         self.groupBox.setTitle(_translate("MainWindow", "抓取设置"))
         self.label.setText(_translate("MainWindow", "请选择抓取期数："))
         self.label_2.setText(_translate("MainWindow", "请选择保存路径："))
-        self.label_3.setText(_translate("MainWindow", "（期数范围为01——24）"))
+        self.label_3.setText(_translate("MainWindow", "（期数范围为01~24）"))
         self.pushButton_2.setText(_translate("MainWindow", "选择"))
         self.pushButton.setText(_translate("MainWindow", "确定"))
         self.groupBox_2.setTitle(_translate("MainWindow", "文件预览"))
@@ -159,13 +164,60 @@ class Ui_MainWindow:
             self.tabWidget.indexOf(
                 self.tab_2), _translate(
                 "MainWindow", "按名称显示"))
-        strDate = str(time.localtime().tm_year) + '-' + str(time.localtime().tm_mon)
-        self.lineEdit_2.setText(_translate("MainWindow", strDate))
-        self.lineEdit.setText(_translate("MainWindow", os.getcwd()))
         item = self.tableWidget.horizontalHeaderItem(0)
         item.setText(_translate("MainWindow", "期数"))
         item = self.tableWidget.horizontalHeaderItem(1)
         item.setText(_translate("MainWindow", "名称"))
+
+        strDate = str(time.localtime().tm_year) + \
+            '-' + str(time.localtime().tm_mon)
+        self.lineEdit_2.setText(_translate("MainWindow", strDate))
+        self.lineEdit.setText(_translate("MainWindow", os.getcwd()))
+        self.pushButton_2.clicked.connect(self.msg)
+
+    def msg(self):
+        try:
+            self.dir_path = QFileDialog.getExistingDirectory(None, "选择路径", os.getcwd())
+            self.lineEdit.setText(self.dir_path)
+        except Exception as e:
+            print(e)
+
+    def get_data(self, url, path):
+        soup = self.url_to_soup(url)
+        link = soup.select('.booklist a')
+        path = path + '\\' + self.date + '\\'
+        if not os.path.isdir(path):
+            os.mkdir(path)
+        for item in link:
+            article_url = self.baseurl + item['href']
+            article_soup = self.url_to_soup(article_url)
+            title = str(article_soup.find('h1')).lstrip('<h1>').rstrip()
+            author = str(article_soup.find(id='pub_date')).strip()
+            file_name = path + title + '.txt'
+            new_file = open(file_name, 'w')
+            new_file.write('<<' + title + '>>\n\n')
+            new_file.write(author + '\n\n')
+            content = article_soup.select('.blkContainerSblkConp')
+            for c in content:
+                text = c.text
+                new_file.write(text)
+            new_file.close()
+        QMessageBox.Information(None, "提示", self.date + "的读者文章保存完成", QMessageBox.Ok)
+
+    def get_files(self):
+        self.list = os.listdir(self.lineEdit.text() + '\\' + self.lineEdit_2.text())
+
+    def bind_table(self):
+        for i in range(0, len(self.list)):
+            self.tableWidget.setItem(i, 0, QtWidgets.QTableWidgetItem(self.lineEdit_2.text()))
+            self.tableWidget.setItem(i, 1, QtWidgets.QTableWidgetItem(self.list[i]))
+
+    def url_to_soup(self, url):
+        r = requests.get(url)
+        r.encoding = r.apparent_encoding
+        soup = BeautifulSoup(r.text, "html.parser")
+        return soup
+
 
 
 if __name__ == '__main__':
