@@ -1,12 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
 # 自定义忽略文件
-/logs/*.log
-/logs/*.txt
-/logs/*.html
-/logs/latest/*.log
-/logs/latest/*.txt
-/logs/latest/*.html
 /venv/*
 /workModel/TestCase
 /workModel/work_project/GroupBuy.py
@@ -14,4 +8,4 @@
 /workModel/work_project/ConnectSql.py
 /WorkModel/work_project/groupModel.py
 .idea
-/build/student_system/EXE-00.toc
+/build/
