@@ -2,7 +2,9 @@
 # -*- coding: utf-8 -*-
 # @Author : anne yang
 
-a = lambda x, y: x + y
+def a(x, y): return x + y
+
+
 print(a(1, 2))
 
 
